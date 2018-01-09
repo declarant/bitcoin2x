@@ -14,6 +14,65 @@
 
 #include <boost/signals2/signal.hpp>
 
+class CBonusinfo{
+private:
+    uint160 hash;             //the hash of the object
+    int nVout;                //number of output;
+    void genHash(){
+        std::string temp(hashTx.ToString()+key+std::to_string(nVout));
+        std::vector<unsigned char> vchHash(temp.begin(),temp.end());
+        hash=Hash160(vchHash);
+    }
+public:
+    uint256 hashTx;           //the hash of transaction;
+    std::string key;          //the users sicret key;
+    /*  The number is stored 1 unit more,
+     *  this is done so that there is no situation when the number is zero,
+     *  which leads to the inability to determine whether the code is used on this wallet or not.
+    */
+    explicit CBonusinfo(std::string Key="",uint256 HashTx=uint256(), int NVout=0,bool isUsed=false){
+         hashTx=HashTx;
+         key=Key;
+         nVout=NVout+1;
+         if(isUsed){
+             nVout=0-nVout;
+         }
+         genHash();
+    }
+    int getnVout()const{ return abs(nVout)-1;}    // number of vout;
+    bool isUsed()const{return nVout<0;}         // if nVout<0 then the bonus key is used else false
+    uint160 getHash()const{return hash;}
+    CBonusinfo& operator=(const CBonusinfo& right){
+        this->hash=right.hash;
+        this->key=right.key;
+        this->nVout=right.nVout;
+        this->hashTx=right.hashTx;
+        return *this;
+    }
+    bool operator==(const CBonusinfo& right)const{
+        return this->hash==right.hash;
+    }
+    bool operator>(const CBonusinfo& right)const{
+        return !(this->hash<right.hash);
+    }
+    bool operator<(const CBonusinfo& right)const{
+        return this->hash<right.hash;
+    }
+    template <typename Stream>
+    void Serialize(Stream& s)const{
+        s << hashTx;
+        s << nVout;
+        s << key;
+    }
+        template <typename Stream>
+    void Unserialize(Stream& s){
+        s >> hashTx;
+        s >> nVout;
+        s >> key;
+        genHash();
+    }
+};
+
 /** A virtual base class for key stores */
 class CKeyStore
 {
@@ -38,6 +97,9 @@ public:
     virtual bool HaveCScript(const CScriptID &hash) const =0;
     virtual bool GetCScript(const CScriptID &hash, CScript& redeemScriptOut) const =0;
 
+    // Same as the methods of working with CScript but for bonus codes, add to a separate map
+    virtual bool AddBonus(const CBonusinfo& Bonusinfo) =0;
+
     //! Support for Watch-only addresses
     virtual bool AddWatchOnly(const CScript &dest) =0;
     virtual bool RemoveWatchOnly(const CScript &dest) =0;
@@ -49,6 +111,8 @@ typedef std::map<CKeyID, CKey> KeyMap;
 typedef std::map<CKeyID, CPubKey> WatchKeyMap;
 typedef std::map<CScriptID, CScript > ScriptMap;
 typedef std::set<CScript> WatchOnlySet;
+typedef std::set<CBonusinfo> Bonusinfoset;
+
 
 /** Basic key store, that keeps keys in an address->secret map */
 class CBasicKeyStore : public CKeyStore
@@ -58,6 +122,8 @@ protected:
     WatchKeyMap mapWatchKeys;
     ScriptMap mapScripts;
     WatchOnlySet setWatchOnly;
+    Bonusinfoset setBonusinfo;
+
 
 public:
     bool AddKeyPubKey(const CKey& key, const CPubKey &pubkey) override;
@@ -100,6 +166,8 @@ public:
     virtual bool AddCScript(const CScript& redeemScript) override;
     virtual bool HaveCScript(const CScriptID &hash) const override;
     virtual bool GetCScript(const CScriptID &hash, CScript& redeemScriptOut) const override;
+
+    virtual bool AddBonus(const CBonusinfo& Bonusinfo);
 
     virtual bool AddWatchOnly(const CScript &dest) override;
     virtual bool RemoveWatchOnly(const CScript &dest) override;

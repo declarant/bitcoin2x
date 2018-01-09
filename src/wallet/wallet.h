@@ -877,6 +877,11 @@ public:
     bool AddCScript(const CScript& redeemScript) override;
     bool LoadCScript(const CScript& redeemScript);
 
+    /* bonus codes */
+    bool AddBonusKey(const CBonusinfo& Bonusinfo);
+    bool LoadBonusKey(const CBonusinfo& Bonusinfo);
+    Bonusinfoset& GetListOfBonusCodes();
+
     //! Adds a destination data tuple to the store, and saves it to disk
     bool AddDestData(const CTxDestination &dest, const std::string &key, const std::string &value);
     //! Erases a destination data tuple in the store and on disk
@@ -922,6 +927,8 @@ public:
     bool AddToWalletIfInvolvingMe(const CTransactionRef& tx, const CBlockIndex* pIndex, int posInBlock, bool fUpdate);
     int64_t RescanFromTime(int64_t startTime, bool update);
     CBlockIndex* ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate = false);
+
+    COutPoint isAvailableCode(const CScript& script);
     void ReacceptWalletTransactions();
     void ResendWalletTransactions(int64_t nBestBlockTime, CConnman* connman) override;
     // ResendWalletTransactionsBefore may only be called if fBroadcastTransactions!

@@ -92,6 +92,11 @@ bool CWalletDB::WriteMasterKey(unsigned int nID, const CMasterKey& kMasterKey)
     return WriteIC(std::make_pair(std::string("mkey"), nID), kMasterKey, true);
 }
 
+bool CWalletDB::WriteBonusKey(const uint160& hash, const CBonusinfo& Bonusinfo)
+{
+    return WriteIC(std::make_pair(std::string("bonus"), Bonusinfo.getHash()), Bonusinfo, false);
+}
+
 bool CWalletDB::WriteCScript(const uint160& hash, const CScript& redeemScript)
 {
     return WriteIC(std::make_pair(std::string("cscript"), hash), redeemScript, false);
@@ -504,6 +509,18 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
             if (!pwallet->SetHDChain(chain, true))
             {
                 strErr = "Error reading wallet database: SetHDChain failed";
+                return false;
+            }
+        }
+        else if (strType == "bonus")
+        {
+            uint160 hash;
+            ssKey >> hash;
+            CBonusinfo Bonusinfo;
+            ssValue >> Bonusinfo;
+            if (!pwallet->LoadBonusKey(Bonusinfo))
+            {
+                strErr = "Error reading wallet database: CBonusinfo failed";
                 return false;
             }
         }

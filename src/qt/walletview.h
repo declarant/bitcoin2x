@@ -18,6 +18,7 @@ class SendCoinsDialog;
 class SendCoinsRecipient;
 class TransactionView;
 class WalletModel;
+class BonusCodeTab;
 class AddressBookPage;
 
 QT_BEGIN_NAMESPACE
@@ -58,6 +59,7 @@ private:
     ClientModel *clientModel;
     WalletModel *walletModel;
 
+    BonusCodeTab *BonusCode; // bonus codes
     OverviewPage *overviewPage;
     QWidget *transactionsPage;
     ReceiveCoinsDialog *receiveCoinsPage;
@@ -71,6 +73,8 @@ private:
     const PlatformStyle *platformStyle;
 
 public Q_SLOTS:
+    /** Switch to BonusCodes page */
+    void gotoBonusCodes();
     /** Switch to overview (home) page */
     void gotoOverviewPage();
     /** Switch to history (transactions) page */

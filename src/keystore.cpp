@@ -64,6 +64,11 @@ bool CBasicKeyStore::GetCScript(const CScriptID &hash, CScript& redeemScriptOut)
     return false;
 }
 
+bool CBasicKeyStore::AddBonus(const CBonusinfo& Bonusinfo)
+{
+    return setBonusinfo.insert(Bonusinfo).second;
+}
+
 static bool ExtractPubKey(const CScript &dest, CPubKey& pubKeyOut)
 {
     //TODO: Use Solver to extract this?

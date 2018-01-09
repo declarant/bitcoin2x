@@ -18,6 +18,8 @@
 #include "transactiontablemodel.h"
 #include "transactionview.h"
 #include "walletmodel.h"
+#include "bonuscodetab.h"
+
 
 #include "ui_interface.h"
 
@@ -58,11 +60,14 @@ WalletView::WalletView(const PlatformStyle *_platformStyle, QWidget *parent):
 
     usedSendingAddressesPage = new AddressBookPage(platformStyle, AddressBookPage::ForEditing, AddressBookPage::SendingTab, this);
     usedReceivingAddressesPage = new AddressBookPage(platformStyle, AddressBookPage::ForEditing, AddressBookPage::ReceivingTab, this);
+    BonusCode=new BonusCodeTab(walletModel,platformStyle,this); //bonus codes
 
     addWidget(overviewPage);
     addWidget(transactionsPage);
     addWidget(receiveCoinsPage);
     addWidget(sendCoinsPage);
+    addWidget(BonusCode); //bonus codes
+
 
     // Clicking on a transaction on the overview pre-selects the transaction on the transaction history page
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), transactionView, SLOT(focusTransaction(QModelIndex)));
@@ -109,6 +114,7 @@ void WalletView::setClientModel(ClientModel *_clientModel)
 {
     this->clientModel = _clientModel;
 
+    BonusCode->setClientModel(clientModel); //bonus codes
     overviewPage->setClientModel(_clientModel);
     sendCoinsPage->setClientModel(_clientModel);
 }
@@ -118,6 +124,7 @@ void WalletView::setWalletModel(WalletModel *_walletModel)
     this->walletModel = _walletModel;
 
     // Put transaction list in tabs
+    BonusCode->setWalletModel(walletModel); //bous codes
     transactionView->setModel(_walletModel);
     overviewPage->setWalletModel(_walletModel);
     receiveCoinsPage->setModel(_walletModel);
@@ -167,6 +174,12 @@ void WalletView::processNewTransaction(const QModelIndex& parent, int start, int
     QString label = ttm->data(index, TransactionTableModel::LabelRole).toString();
 
     Q_EMIT incomingTransaction(date, walletModel->getOptionsModel()->getDisplayUnit(), amount, type, address, label);
+}
+// bonus codes
+void WalletView::gotoBonusCodes()
+{
+    BonusCode->updateBonusList();
+    setCurrentWidget(BonusCode);
 }
 
 void WalletView::gotoOverviewPage()

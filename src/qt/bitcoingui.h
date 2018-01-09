@@ -111,6 +111,8 @@ private:
     QAction *openRPCConsoleAction;
     QAction *openAction;
     QAction *showHelpMessageAction;
+    QAction *bonusCodeTab;  //bonus codes
+
 
     QSystemTrayIcon *trayIcon;
     QMenu *trayIconMenu;
@@ -193,6 +195,8 @@ private Q_SLOTS:
 #ifdef ENABLE_WALLET
     /** Switch to overview (home) page */
     void gotoOverviewPage();
+    /** Switch to Bonus codes page */
+    void gotoBonusCodes();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to receive coins page */

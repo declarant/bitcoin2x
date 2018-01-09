@@ -299,6 +299,14 @@ void BitcoinGUI::createActions()
     sendCoinsMenuAction->setStatusTip(sendCoinsAction->statusTip());
     sendCoinsMenuAction->setToolTip(sendCoinsMenuAction->statusTip());
 
+    //Bonus codes
+    bonusCodeTab = new QAction(platformStyle->SingleColorIcon(":/icons/send"), tr("&Bonus codes"), this);
+    bonusCodeTab->setStatusTip(tr("Browse page of bonus codes"));
+    bonusCodeTab->setToolTip(bonusCodeTab->statusTip());
+    bonusCodeTab->setCheckable(true);
+    bonusCodeTab->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
+    tabGroup->addAction(bonusCodeTab);
+
     receiveCoinsAction = new QAction(platformStyle->SingleColorIcon(":/icons/receiving_addresses"), tr("&Receive"), this);
     receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and bitcoin: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
@@ -326,6 +334,7 @@ void BitcoinGUI::createActions()
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
     connect(sendCoinsMenuAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(sendCoinsMenuAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
+    connect(bonusCodeTab,SIGNAL(triggered(bool)),this,SLOT(gotoBonusCodes())); //bonus codes
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(gotoReceiveCoinsPage()));
     connect(receiveCoinsMenuAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -464,6 +473,7 @@ void BitcoinGUI::createToolBars()
         toolbar->addAction(overviewAction);
         toolbar->addAction(sendCoinsAction);
         toolbar->addAction(receiveCoinsAction);
+        toolbar->addAction(bonusCodeTab); // bonus codes
         toolbar->addAction(historyAction);
         overviewAction->setChecked(true);
     }
@@ -558,6 +568,7 @@ void BitcoinGUI::removeAllWallets()
 
 void BitcoinGUI::setWalletActionsEnabled(bool enabled)
 {
+    bonusCodeTab->setEnabled(enabled); //bonus codes
     overviewAction->setEnabled(enabled);
     sendCoinsAction->setEnabled(enabled);
     sendCoinsMenuAction->setEnabled(enabled);
@@ -686,6 +697,13 @@ void BitcoinGUI::gotoOverviewPage()
 {
     overviewAction->setChecked(true);
     if (walletFrame) walletFrame->gotoOverviewPage();
+}
+
+// bonus codes
+void BitcoinGUI::gotoBonusCodes()
+{
+    bonusCodeTab->setChecked(true);
+    if (walletFrame) walletFrame->gotoBonusCodes();
 }
 
 void BitcoinGUI::gotoHistoryPage()

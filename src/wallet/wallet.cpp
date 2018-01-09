@@ -315,6 +315,22 @@ bool CWallet::LoadCScript(const CScript& redeemScript)
     return CCryptoKeyStore::AddCScript(redeemScript);
 }
 
+bool CWallet::AddBonusKey(const CBonusinfo& Bonusinfo)
+{
+    if (!CCryptoKeyStore::AddBonus(Bonusinfo))
+        return false;
+    return CWalletDB(*dbw).WriteBonusKey(Bonusinfo.getHash(), Bonusinfo);
+}
+
+Bonusinfoset& CWallet::GetListOfBonusCodes(){
+    return setBonusinfo;
+}
+
+bool CWallet::LoadBonusKey(const CBonusinfo& Bonusinfo)
+{
+    return CCryptoKeyStore::AddBonus(Bonusinfo);
+}
+
 bool CWallet::AddWatchOnly(const CScript& dest)
 {
     if (!CCryptoKeyStore::AddWatchOnly(dest))
@@ -1654,6 +1670,33 @@ CBlockIndex* CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, bool f
         fScanningWallet = false;
     }
     return ret;
+}
+
+COutPoint CWallet::isAvailableCode(const CScript& script)
+{
+    CBlockIndex* pindex =mapBlockIndex[chainActive.Tip()->GetBlockHash()];
+    {
+        LOCK2(cs_main, cs_wallet);
+        while (pindex)
+        {
+            CBlock block;
+            ReadBlockFromDisk(block, pindex, Params().GetConsensus());
+            for(CTransactionRef tx: block.vtx)
+            {
+                for(unsigned int i = 0; i < tx->vout.size(); i++){
+
+                    bool fAvailable =
+                        pcoinsTip->HaveCoin(COutPoint(tx->GetHash(), i));
+
+                    if(tx->vout[i].scriptPubKey == script && fAvailable){
+                       return COutPoint(tx->GetHash(), i);
+                    }
+                }
+            }
+            pindex = pindex->pprev;
+        }
+    }
+    return COutPoint();
 }
 
 void CWallet::ReacceptWalletTransactions()

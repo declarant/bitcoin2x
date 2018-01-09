@@ -65,6 +65,10 @@ WalletModel::~WalletModel()
     unsubscribeFromCoreSignals();
 }
 
+CWallet* WalletModel::getWallet(){
+    return wallet;
+}
+
 CAmount WalletModel::getBalance(const CCoinControl *coinControl) const
 {
     if (coinControl)
