@@ -1677,7 +1677,7 @@ COutPoint CWallet::isAvailableCode(const CScript& script)
     CBlockIndex* pindex =mapBlockIndex[chainActive.Tip()->GetBlockHash()];
     {
         LOCK2(cs_main, cs_wallet);
-        while (pindex)
+        while (pindex && pindex->nHeight > Params().GetConsensus().hardforkHeight)
         {
             CBlock block;
             ReadBlockFromDisk(block, pindex, Params().GetConsensus());
