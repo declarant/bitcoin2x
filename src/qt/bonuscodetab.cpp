@@ -37,14 +37,14 @@ BonusCodeTab::BonusCodeTab(WalletModel *wmodel_,
     ui->BReceive->setIcon(platformStyle->SingleColorIcon(":/icons/r_coupon"));
     ui->CouponId->setText(ui->CouponId->text() + ":");
 
-    connect(ui->BCreate, SIGNAL(clicked(bool)), this, SLOT(CreateClick(bool)));
+    connect(ui->BCreate, SIGNAL(clicked(bool)), this, SLOT(createClick(bool)));
     connect(ui->BReceive, SIGNAL(clicked(bool)), this,
             SLOT(getBonusClick(bool)));
     connect(ui->tab1, SIGNAL(currentChanged(int)), this,
             SLOT(updateBonusList()));
 }
 
-void BonusCodeTab::Clicked(QModelIndex i) {
+void BonusCodeTab::clicked(QModelIndex i) {
 
     PreviewCodeDialog(i.model(), i.row(), this).exec();
 }
@@ -81,7 +81,7 @@ void BonusCodeTab::tableInit(QTableView *sourceTable) {
     sourceTable->horizontalHeader()->setSectionResizeMode(0,
                                                           QHeaderView::Fixed);
     sourceTable->horizontalHeader()->setSectionResizeMode(1,
-                                                          QHeaderView::Fixed);
+                                                          QHeaderView::ResizeToContents);
     sourceTable->horizontalHeader()->setSectionResizeMode(2,
                                                           QHeaderView::Stretch);
     sourceTable->horizontalHeader()->setSectionResizeMode(3,
@@ -92,7 +92,7 @@ void BonusCodeTab::tableInit(QTableView *sourceTable) {
                                                          Qt::AlignVCenter);
 
     sourceTable->setColumnWidth(0, 140);
-    sourceTable->setColumnWidth(1, 100);
+    sourceTable->setColumnWidth(1, 130);
     sourceTable->setColumnHidden(2, true);
     sourceTable->setColumnWidth(4, 130);
     sourceTable->setShowGrid(false);
@@ -207,6 +207,8 @@ void BonusCodeTab::updateBonusList() {
 void BonusCodeTab::setWalletModel(WalletModel *wmodel) {
 
     this->wmodel = wmodel;
+    connect(wmodel->getOptionsModel(), SIGNAL(displayUnitChanged(int)),
+            SLOT(updateBonusList()));
 }
 
 void BonusCodeTab::setClientModel(ClientModel *clientmodel) {
@@ -304,7 +306,7 @@ void BonusCodeTab::getBonusClick(bool) {
     }
     ui->EKey->clear();
 }
-void BonusCodeTab::CreateClick(bool) {
+void BonusCodeTab::createClick(bool) {
 
     CWallet *wallet = wmodel->getWallet();
 

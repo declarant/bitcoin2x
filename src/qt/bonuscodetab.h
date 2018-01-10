@@ -35,9 +35,9 @@ private:
     const PlatformStyle *platformStyle;
     CWalletTx* findTx(const CScript& script);
 private Q_SLOTS:
-    void Clicked(QModelIndex);
+    void clicked(QModelIndex);
     void getBonusClick(bool);
-    void CreateClick(bool);
+    void createClick(bool);
 };
 
 #endif // BONUSCODETAB_H

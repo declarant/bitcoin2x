@@ -13,7 +13,7 @@ PreviewCodeDialog::PreviewCodeDialog(const QAbstractItemModel *idx, int row, QWi
     ui->HashFirst->setText(idx->headerData(2,Qt::Horizontal).toString()+":");
     ui->DateFirst->setText(idx->headerData(0,Qt::Horizontal).toString()+":");
 
-    ui->AmountSecond->setText(QString::number(idx->data(idx->index(row,1)).toDouble(),'f',3));
+    ui->AmountSecond->setText(idx->data(idx->index(row,1)).toString());
     ui->CodeSecond->setText(idx->data(idx->index(row,3)).toString());
     ui->HashSecond->setText(idx->data(idx->index(row,2)).toString());
     QLocale l(QLocale::system());
