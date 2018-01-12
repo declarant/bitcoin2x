@@ -1,4 +1,6 @@
-<TS language="ko_KR" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ko_KR">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -435,7 +437,9 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin2X network</source>
-        <translation><numerusform>비트코인 네트워크에 %n개의 연결이 활성화되어 있습니다.</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>비트코인 네트워크에 %n개의 연결이 활성화되어 있습니다.</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -447,7 +451,9 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n 블록 만큼의 거래 기록이 처리됨.</numerusform></translation>
+        <translation>
+            <numerusform>%n 블록 만큼의 거래 기록이 처리됨.</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -479,7 +485,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin2X command-line options</source>
-        <translation>사용할 수 있는 비트코인 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다.</translation>
+        <translation type="unfinished">사용할 수 있는 비트코인 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +555,159 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin2X can no longer continue safely and will quit.</source>
-        <translation>치명적인 오류가 발생했습니다. 비트코인을 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
+        <translation type="unfinished">치명적인 오류가 발생했습니다. 비트코인을 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
+    </message>
+    <message>
+        <source>&amp;Bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse page of bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BonusCodeTab</name>
+    <message>
+        <source>Bonus Code Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">거래액</translation>
+    </message>
+    <message>
+        <source>Create a code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeem code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeemed codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">날짜</translation>
+    </message>
+    <message>
+        <source>Transaction hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>KeyWord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished">미확인</translation>
+    </message>
+    <message>
+        <source>Used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the key and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code redemption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bonus code is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adding code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error adding key to wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%0 Btx were received with this code.
+We recommend waiting for 3 transaction confirmations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The bonus key was added to your wallet, but it was not possible to scan it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have the right amount in your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your code is created. The code will be available after confirmation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Solution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In order to solve this problem, you need to rescan your wallet. Scanning a wallet will take some time want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commission for the confirmation of the bonus code.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key is no confirmed.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -742,12 +900,12 @@
         <translation>보내는 주소 편집</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin2X address.</source>
-        <translation>입력한 "%1" 주소는 올바른 비트코인 주소가 아닙니다.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin2X address.</source>
+        <translation>입력한 &quot;%1&quot; 주소는 올바른 비트코인 주소가 아닙니다.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>입력된 주소는"%1" 이미 주소록에 있습니다.</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>입력된 주소는&quot;%1&quot; 이미 주소록에 있습니다.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -816,8 +974,8 @@
         <translation>실행시 데이터 폴더 선택하기 (기본값: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>"ko_KR"와 같이 언어를 설정하십시오 (기본값: 시스템 로캘)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>&quot;ko_KR&quot;와 같이 언어를 설정하십시오 (기본값: 시스템 로캘)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -852,7 +1010,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin2X block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1가 블록체인의 복사본을 다운로드 저장합니다. 적어도 %2GB의 데이터가 이 폴더에 저장되며 시간이 경과할수록 점차 증가합니다. 그리고 지갑 또한 이 폴더에 저장됩니다. </translation>
+        <translation type="obsolete">%1가 블록체인의 복사본을 다운로드 저장합니다. 적어도 %2GB의 데이터가 이 폴더에 저장되며 시간이 경과할수록 점차 증가합니다. 그리고 지갑 또한 이 폴더에 저장됩니다. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -863,8 +1021,8 @@
         <translation>커스텀 데이터 폴더 사용:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>오류: "%1" 지정한 데이터 디렉토리를 생성할 수 없습니다.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation>오류: &quot;%1&quot; 지정한 데이터 디렉토리를 생성할 수 없습니다.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -872,11 +1030,47 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB 사용가능</numerusform></translation>
+        <translation>
+            <numerusform>%n GB 사용가능</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(%n GB가 필요)</numerusform></translation>
+        <translation>
+            <numerusform>(%n GB가 필요)</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation type="unfinished">비트코인</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin2X block chain.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -886,7 +1080,7 @@
         <translation>유형</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
         <translation>최근 거래는 아직 보이지 않을 것입니다, 그러므로 당신의 지갑의 잔액이 틀릴 수도 있습니다. 이 정보는 비트코인 네트워크와 완전한 동기화가 완료되면 아래의 설명과 같이 정확해집니다.</translation>
     </message>
     <message>
@@ -1081,7 +1275,7 @@
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>이 SOCK5 프록시를 통과해 피어와 접속한 네트워크 유형이 표시됩니다.</translation>
+        <translation type="obsolete">이 SOCK5 프록시를 통과해 피어와 접속한 네트워크 유형이 표시됩니다.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1186,6 +1380,34 @@
     <message>
         <source>The supplied proxy address is invalid.</source>
         <translation>지정한 프록시 주소가 잘못되었습니다.</translation>
+    </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configuration options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">오류</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1302,7 +1524,7 @@
         <translation>지불 요청이 거부됨</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>지급 요청 네트워크가 클라이언트 네트워크와 일치되지 않습니다.</translation>
     </message>
     <message>
@@ -1374,6 +1596,21 @@
     </message>
 </context>
 <context>
+    <name>PreviewCodeDialog</name>
+    <message>
+        <source>Information about the bonus </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1413,23 +1650,33 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n 초</numerusform></translation>
+        <translation>
+            <numerusform>%n 초</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 분</numerusform></translation>
+        <translation>
+            <numerusform>%n 분</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 시간</numerusform></translation>
+        <translation>
+            <numerusform>%n 시간</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>&amp;n 일</numerusform></translation>
+        <translation>
+            <numerusform>&amp;n 일</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n 주</numerusform></translation>
+        <translation>
+            <numerusform>%n 주</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1437,26 +1684,44 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n 년</numerusform></translation>
+        <translation>
+            <numerusform>%n 년</numerusform>
+        </translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
+        <source>%1 didn&apos;t yet exit safely...</source>
         <translation>%1가 아직 안전하게 종료되지 않았습니다...</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="unfinished">에러: 지정한 데이터 폴더 &quot;%1&quot;은 존재하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation type="unfinished">에러: 설정파일을 파싱할수 없습니다: %1. key=value syntax만 사용가능합니다.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">에러: %1</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">알수없음</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>에러: 지정한 데이터 폴더 "%1"은 존재하지 않습니다.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="obsolete">에러: 지정한 데이터 폴더 &quot;%1&quot;은 존재하지 않습니다.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>에러: 설정파일을 파싱할수 없습니다: %1. key=value syntax만 사용가능합니다.</translation>
+        <translation type="obsolete">에러: 설정파일을 파싱할수 없습니다: %1. key=value syntax만 사용가능합니다.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>에러: %1</translation>
+        <translation type="obsolete">에러: %1</translation>
     </message>
 </context>
 <context>
@@ -1662,7 +1927,7 @@
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>지우기(&amp;C)</translation>
+        <translation type="obsolete">지우기(&amp;C)</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1718,7 +1983,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>기록을 찾아보려면 위 아래 화살표 키를, 화면을 지우려면 &lt;b&gt;Ctrl-L&lt;/b&gt;키를 사용하십시오.</translation>
+        <translation type="obsolete">기록을 찾아보려면 위 아래 화살표 키를, 화면을 지우려면 &lt;b&gt;Ctrl-L&lt;/b&gt;키를 사용하십시오.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1726,7 +1991,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>경고 : 사기꾼이 사용자에게 여기에 명령을 입력하게 하여 지갑 내용을 훔칠수 있다는 사실을 알려드립니다. 명령어를 완전히 이해하지 못한다면 콘솔을 사용하지 마십시오.</translation>
+        <translation type="obsolete">경고 : 사기꾼이 사용자에게 여기에 명령을 입력하게 하여 지갑 내용을 훔칠수 있다는 사실을 알려드립니다. 명령어를 완전히 이해하지 못한다면 콘솔을 사용하지 마십시오.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1779,6 +2044,18 @@
     <message>
         <source>Unknown</source>
         <translation>알수없음</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2025,8 +2302,8 @@
         <translation>킬로바이트 당</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>사용자 정의 수수료가 1000사토시로 지정된 경우 거래의 크기가 250바이트 일 경우 1킬로바이트당 250사토시만 지불되지만 "최소 수수료"에선 1000사토시가 지불됩니다. 1킬로바이트가 넘는 거래인 경우 어떠한 경우에든 1킬로바이트 기준으로 지불됩니다.</translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>사용자 정의 수수료가 1000사토시로 지정된 경우 거래의 크기가 250바이트 일 경우 1킬로바이트당 250사토시만 지불되지만 &quot;최소 수수료&quot;에선 1000사토시가 지불됩니다. 1킬로바이트가 넘는 거래인 경우 어떠한 경우에든 1킬로바이트 기준으로 지불됩니다.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -2034,7 +2311,7 @@
     </message>
     <message>
         <source>total at least</source>
-        <translation>최소 수수료</translation>
+        <translation type="obsolete">최소 수수료</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin2X transactions than the network can process.</source>
@@ -2058,11 +2335,11 @@
     </message>
     <message>
         <source>normal</source>
-        <translation>일반</translation>
+        <translation type="obsolete">일반</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>빠름</translation>
+        <translation type="obsolete">빠름</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2190,7 +2467,9 @@
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n 블록</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n 블록</numerusform>
+        </translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
@@ -2198,11 +2477,13 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>%n 블록 안에 승인이 시작될 것으로 추정됩니다.</numerusform></translation>
+        <translation>
+            <numerusform>%n 블록 안에 승인이 시작될 것으로 추정됩니다.</numerusform>
+        </translation>
     </message>
     <message>
         <source>Warning: Invalid Bitcoin2X address</source>
-        <translation>경고: 잘못된 비트코인주소입니다</translation>
+        <translation type="obsolete">경고: 잘못된 비트코인주소입니다</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2219,6 +2500,34 @@
     <message>
         <source>(no label)</source>
         <translation>(라벨 없음)</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Indicates that the sender may wish to replace this transaction with a new one paying higher fees (prior to being confirmed).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request Replace-By-Fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This transaction signals replaceability (optin-RBF).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin2x address</source>
+        <translation type="unfinished">경고: 잘못된 비트코인주소입니다 {2x?}</translation>
     </message>
 </context>
 <context>
@@ -2389,7 +2698,7 @@
         <translation>메시지 검증(&amp;V)</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>메시지를 검증하기 위해 아래 칸에 각각 지갑 주소와 메시지, 전자서명을 입력하세요. (메시지 원본의 띄어쓰기, 들여쓰기, 행 나눔 등이 정확하게 입력되어야 하므로 원본을 복사해서 입력하세요) 이 기능은 메시지 검증이 주 목적이며, 네트워크 침입자에 의해 변조되지 않도록 전자서명 해독에 불필요한 시간을 소모하지 마세요. </translation>
     </message>
     <message>
@@ -2409,8 +2718,8 @@
         <translation>모든 검증 메시지 필드 재설정</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>서명을 만들려면 "메시지 서명"을 누르십시오</translation>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>서명을 만들려면 &quot;메시지 서명&quot;을 누르십시오</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2479,7 +2788,9 @@
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n개의 더 많은 블록 열기</numerusform></translation>
+        <translation>
+            <numerusform>%n개의 더 많은 블록 열기</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2527,7 +2838,9 @@
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, %n개 노드를 통해 전파</numerusform></translation>
+        <translation>
+            <numerusform>, %n개 노드를 통해 전파</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
@@ -2571,7 +2884,9 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>%n개의 더 많은 블록을 숙성</numerusform></translation>
+        <translation>
+            <numerusform>%n개의 더 많은 블록을 숙성</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -2622,8 +2937,8 @@
         <translation>상인</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>신규 채굴된 코인이 사용되기 위해서는 %1 개의 블록이 경과되어야 합니다. 블록을 생성할 때 블록체인에 추가되도록 네트워크에 전파되는 과정을 거치는데, 블록체인에 포함되지 못하고 실패한다면 해당 블록의 상태는 '미승인'으로 표현되고 비트코인 또한 사용될 수 없습니다. 이 현상은 다른 노드가 비슷한 시간대에 동시에 블록을 생성할 때 종종 발생할 수 있습니다. </translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>신규 채굴된 코인이 사용되기 위해서는 %1 개의 블록이 경과되어야 합니다. 블록을 생성할 때 블록체인에 추가되도록 네트워크에 전파되는 과정을 거치는데, 블록체인에 포함되지 못하고 실패한다면 해당 블록의 상태는 &apos;미승인&apos;으로 표현되고 비트코인 또한 사용될 수 없습니다. 이 현상은 다른 노드가 비슷한 시간대에 동시에 블록을 생성할 때 종종 발생할 수 있습니다. </translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2677,7 +2992,9 @@
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n개의 더 많은 블록 열기</numerusform></translation>
+        <translation>
+            <numerusform>%n개의 더 많은 블록 열기</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2930,6 +3247,10 @@
         <source>to</source>
         <translation>상대방</translation>
     </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2950,6 +3271,42 @@
     <message>
         <source>Send Coins</source>
         <translation>코인 보내기</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t sign transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3011,11 +3368,11 @@
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>외부 접속을 승인합니다 (기본값 : -proxy 또는 -connect / -noconnect가 없는 경우 1)</translation>
+        <translation type="obsolete">외부 접속을 승인합니다 (기본값 : -proxy 또는 -connect / -noconnect가 없는 경우 1)</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>지정된 노드에만 연결; 자동 연결을 사용하지 않으려면 -noconnect 또는 -connect=0 을 단독으로 사용하십시오.</translation>
+        <translation type="obsolete">지정된 노드에만 연결; 자동 연결을 사용하지 않으려면 -noconnect 또는 -connect=0 을 단독으로 사용하십시오.</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3086,8 +3443,8 @@
         <translation>시작시 모든 지갑 거래를 삭제하고 -rescan을 통하여 블록체인만 복구합니다.</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>%s 불러오기 오류: 비-HD 지갑이 존재하는 상태에서 HD 지갑을 활성화 할 수 없습니다</translation>
+        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
+        <translation type="obsolete">%s 불러오기 오류: 비-HD 지갑이 존재하는 상태에서 HD 지갑을 활성화 할 수 없습니다</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3110,7 +3467,7 @@
         <translation>허용 된 최대 중간 피어 시간 오프셋 조정. 시간에 대한 지역적 전망치는 전방 또는 후방의 피어에 의해 영향을 받을 수 있습니다. (기본값: %u 초)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>컴퓨터의 날짜와 시간이 올바른지 확인하십시오! 시간이 잘못되면 %s은 제대로 동작하지 않습니다.</translation>
     </message>
     <message>
@@ -3126,7 +3483,7 @@
         <translation>스크립트 인증 스레드의 갯수 설정 (%u-%d, 0 = 자동, &lt;0 = 지정된 코어 개수만큼 사용 안함, 기본값: %d)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
         <translation>블록 데이터베이스에 미래의 블록이 포함되어 있습니다. 이것은 사용자의 컴퓨터의 날짜와 시간이 올바르게 설정되어 있지 않을때 나타날 수 있습니다. 만약 사용자의 컴퓨터의 날짜와 시간이 올바르다고 확신할 때에만 블록 데이터 베이스의 재구성을 하십시오</translation>
     </message>
     <message>
@@ -3159,7 +3516,7 @@
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>-txindex를 바꾸기 위해서는 -reindex-chainstate 를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
+        <translation type="obsolete">-txindex를 바꾸기 위해서는 -reindex-chainstate 를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3186,8 +3543,8 @@
         <translation>블록 생성 옵션:</translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>%s 주소를 확인할 수 없습니다: '%s'</translation>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation>%s 주소를 확인할 수 없습니다: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
@@ -3262,8 +3619,8 @@
         <translation>%s 불러오기 에러: 지갑은 새 버전의 %s이 필요합니다</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>%s 불러오기 오류: 이미 HD 지갑이 존재하는 상태에서 HD 지갑을 비활성화 할 수 없습니다</translation>
+        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
+        <translation type="obsolete">%s 불러오기 오류: 이미 HD 지갑이 존재하는 상태에서 HD 지갑을 비활성화 할 수 없습니다</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -3294,16 +3651,16 @@
         <translation>무결성 확인 초기화가 실패했습니다. %s가 종료됩니다.</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>잘못된 -onion 주소입니다: '%s'</translation>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="obsolete">잘못된 -onion 주소입니다: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>유효하지 않은 금액 -%s=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>유효하지 않은 금액 -%s=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>유효하지 않은 금액 -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>유효하지 않은 금액 -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
@@ -3403,7 +3760,7 @@
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>지갑 검증중...</translation>
+        <translation type="obsolete">지갑 검증중...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -3431,7 +3788,7 @@
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>선택된 주소로 고정하여 JSON-RPC 연결을 리슨(Listen)합니다. IPv6 프로토콜인 경우 [host]:port 방식의 명령어 표기법을 사용합니다. 이 옵션은 복수로 지정 할수 있습니다. (기본값: 모든 인터페이스에 고정)</translation>
+        <translation type="obsolete">선택된 주소로 고정하여 JSON-RPC 연결을 리슨(Listen)합니다. IPv6 프로토콜인 경우 [host]:port 방식의 명령어 표기법을 사용합니다. 이 옵션은 복수로 지정 할수 있습니다. (기본값: 모든 인터페이스에 고정)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3458,8 +3815,8 @@
         <translation>paytxfee가 설정되어 있지 않다면 평균 n 블록안에 승인이 이루어지도록 충분한 수수료가 포함됩니다 (기본값: %u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>유효하지 않은 금액 -maxtxfee=&lt;amount&gt;: '%s' (거래가 막히는 상황을 방지하게 위해 적어도 %s 의 중계 수수료를 지정해야 합니다)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>유효하지 않은 금액 -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (거래가 막히는 상황을 방지하게 위해 적어도 %s 의 중계 수수료를 지정해야 합니다)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3471,7 +3828,7 @@
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>최대 크기를 최우선으로 설정 / 바이트당 최소 수수료로 거래(기본값: %d)</translation>
+        <translation type="obsolete">최대 크기를 최우선으로 설정 / 바이트당 최소 수수료로 거래(기본값: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3518,20 +3875,20 @@
         <translation>정보</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>유효하지 않은 금액 -paytxfee=&lt;amount&gt;: "%s" (최소 %s 이상이어야 됨)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>유효하지 않은 금액 -paytxfee=&lt;amount&gt;: &quot;%s&quot; (최소 %s 이상이어야 됨)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>유효하지 않은 넷마스크가 -whitelist: '%s" 를 통해 지정됨</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>유효하지 않은 넷마스크가 -whitelist: &apos;%s&quot; 를 통해 지정됨</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>최대 &lt;n&gt;개의 연결할 수 없는 거래를 메모리에 저장 (기본값: %u)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>-whitebind를 이용하여 포트를 지정해야 합니다: '%s"</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>-whitebind를 이용하여 포트를 지정해야 합니다: &apos;%s&quot;</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3555,7 +3912,7 @@
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>가능한 경우 수수료 없이 거래 보내기 (기본값: %u)</translation>
+        <translation type="obsolete">가능한 경우 수수료 없이 거래 보내기 (기본값: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3639,7 +3996,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>주소를 불러오는 중...</translation>
+        <translation type="obsolete">주소를 불러오는 중...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3683,7 +4040,7 @@
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>보유한 피어 주소가 적은 경우 DNS 조회를 통해 피어 주소를 요청합니다. (-connect / -noconnect가 아니라면 기본값은 1)</translation>
+        <translation type="obsolete">보유한 피어 주소가 적은 경우 DNS 조회를 통해 피어 주소를 요청합니다. (-connect / -noconnect가 아니라면 기본값은 1)</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
@@ -3710,7 +4067,7 @@
         <translation>아웃바운드 트래픽을 설정된 목표치 이하로 유지하기 (24시간당 MiB기준), 0 = 무제한 (기본값: %d)</translation>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>지원하지 않는 인수 -socks를 찾았습니다. 설정된 SOCKS의 버전은 더이상 사용할 수 없으며, SOCK5 프록시만을 지원합니다.</translation>
     </message>
     <message>
@@ -3722,7 +4079,7 @@
         <translation>Tor 서비스를 이용하여 피어에게 연결하기 위해 분리된 SOCKS5 프록시를 사용 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>경고: 알려지지 않은 버전의 블록이 채굴되었습니다. 알려지지 않은 규칙이 적용되었을 가능성이 있습니다.</translation>
     </message>
     <message>
@@ -3754,8 +4111,8 @@
         <translation>디버그 출력에 IP주소 포함하기 (기본값: %u)</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>잘못된 -proxy 주소입니다: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="obsolete">잘못된 -proxy 주소입니다: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
@@ -3862,8 +4219,8 @@
         <translation>거래에는 최소한 한명의 수령인이 있어야 합니다.</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet에 지정한 네트워크를 알 수 없습니다: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>-onlynet에 지정한 네트워크를 알 수 없습니다: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3900,6 +4257,130 @@
     <message>
         <source>Error</source>
         <translation>오류</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -connect=0 disables automatic connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t enable HD on an already existing non-HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d of last 100 blocks have unexpected version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(press q to shutdown and continue later)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading P2P addresses...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replaying blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

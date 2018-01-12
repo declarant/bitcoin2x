@@ -1,4 +1,6 @@
-<TS language="tr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="tr">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -415,7 +417,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Ödeme talep et (QR kodu ve Bitcoin2X URI'si oluşturur)</translation>
+        <translation>Ödeme talep et (QR kodu ve Bitcoin2X URI&apos;si oluşturur)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -435,7 +437,9 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin2X network</source>
-        <translation><numerusform>Bitcoin2X şebekesine %n faal bağlantı</numerusform><numerusform>Bitcoin2X ağına %n etkin bağlantı var</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>Bitcoin2X şebekesine %n faal bağlantı</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -447,7 +451,9 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Muamele tarihçesinden %n blok işlendi.</numerusform><numerusform>İşlem tarihçesinden %n blok işlendi</numerusform></translation>
+        <translation>
+            <numerusform>Muamele tarihçesinden %n blok işlendi.</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -479,7 +485,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin2X command-line options</source>
-        <translation>Olası Bitcoin2X komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
+        <translation type="unfinished">Olası Bitcoin2X komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +555,159 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin2X can no longer continue safely and will quit.</source>
-        <translation>Ölümcül bir hata oluştu. Bitcoin2X yazılımı artık güvenli bir şekilde çalışmaya devam edemediği için kapatılacaktır.</translation>
+        <translation type="unfinished">Ölümcül bir hata oluştu. Bitcoin2X yazılımı artık güvenli bir şekilde çalışmaya devam edemediği için kapatılacaktır.</translation>
+    </message>
+    <message>
+        <source>&amp;Bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse page of bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BonusCodeTab</name>
+    <message>
+        <source>Bonus Code Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Tutar</translation>
+    </message>
+    <message>
+        <source>Create a code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeem code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeemed codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Tarih</translation>
+    </message>
+    <message>
+        <source>Transaction hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>KeyWord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished">Doğrulanmamış</translation>
+    </message>
+    <message>
+        <source>Used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the key and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code redemption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bonus code is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adding code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error adding key to wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%0 Btx were received with this code.
+We recommend waiting for 3 transaction confirmations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The bonus key was added to your wallet, but it was not possible to scan it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have the right amount in your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your code is created. The code will be available after confirmation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Solution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In order to solve this problem, you need to rescan your wallet. Scanning a wallet will take some time want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commission for the confirmation of the bonus code.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key is no confirmed.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -636,7 +794,7 @@
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>İşlem ID'sini kopyala</translation>
+        <translation>İşlem ID&apos;sini kopyala</translation>
     </message>
     <message>
         <source>Lock unspent</source>
@@ -742,12 +900,12 @@
         <translation>Gönderi adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin2X address.</source>
-        <translation>Girilen "%1" adresi geçerli bir Bitcoin2X adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin2X address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir Bitcoin2X adresi değildir.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>Girilen "%1" adresi zaten adres defterinde mevcuttur.</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>Girilen &quot;%1&quot; adresi zaten adres defterinde mevcuttur.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -816,8 +974,8 @@
         <translation>Başlangıçta veri klasörü seç (varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Lisan belirt, mesela "de_De" (varsayılan: sistem dili)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>Lisan belirt, mesela &quot;de_De&quot; (varsayılan: sistem dili)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -844,7 +1002,7 @@
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>%1'a hoş geldiniz.</translation>
+        <translation>%1&apos;a hoş geldiniz.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
@@ -852,7 +1010,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin2X block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1, Bitcoin2X blok zincirinin bir kopyasını indirecek ve saklayacaktır. Bu klasörde en az %2 GB veri saklanacak ve bu zamanla artacaktır. Cüzdan da bu klasörde saklanacaktır.</translation>
+        <translation type="obsolete">%1, Bitcoin2X blok zincirinin bir kopyasını indirecek ve saklayacaktır. Bu klasörde en az %2 GB veri saklanacak ve bu zamanla artacaktır. Cüzdan da bu klasörde saklanacaktır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -863,8 +1021,8 @@
         <translation>Özel bir veri klasörü kullan:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Hata: belirtilen "%1" veri klasörü oluşturulamaz.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation>Hata: belirtilen &quot;%1&quot; veri klasörü oluşturulamaz.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -872,11 +1030,47 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB boş alan mevcuttur</numerusform><numerusform>%n GB boş alan mevcuttur</numerusform></translation>
+        <translation>
+            <numerusform>%n GB boş alan mevcuttur</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(gereken %n GB alandan)</numerusform><numerusform>(gereken %n GB alandan)</numerusform></translation>
+        <translation>
+            <numerusform>(gereken %n GB alandan)</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation type="unfinished">Bitcoin</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin2X block chain.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -886,7 +1080,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
         <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız Bitcoin2X ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
     </message>
     <message>
@@ -938,7 +1132,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Dosyadan veya URI'den ödeme talebi aç</translation>
+        <translation>Dosyadan veya URI&apos;den ödeme talebi aç</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1001,11 +1195,11 @@
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>İşlemler sekmesinde bağlam menüsü unsurları olarak görünen üçüncü taraf bağlantıları (mesela bir blok tarayıcısı). URL'deki %s, işlem hash değeri ile değiştirilecektir. Birden çok bağlantılar düşey çubuklar | ile ayrılacaktır.</translation>
+        <translation>İşlemler sekmesinde bağlam menüsü unsurları olarak görünen üçüncü taraf bağlantıları (mesela bir blok tarayıcısı). URL&apos;deki %s, işlem hash değeri ile değiştirilecektir. Birden çok bağlantılar düşey çubuklar | ile ayrılacaktır.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Üçüncü parti işlem URL'leri</translation>
+        <translation>Üçüncü parti işlem URL&apos;leri</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
@@ -1081,7 +1275,7 @@
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Bu ağ türü yoluyla eşlere bağlanmak için belirtilen varsayılan SOCKS5 vekil sunucusunun kullanılıp kullanılmadığını gösterir.</translation>
+        <translation type="obsolete">Bu ağ türü yoluyla eşlere bağlanmak için belirtilen varsayılan SOCKS5 vekil sunucusunun kullanılıp kullanılmadığını gösterir.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1187,6 +1381,34 @@
         <source>The supplied proxy address is invalid.</source>
         <translation>Girilen vekil sunucu adresi geçersizdir.</translation>
     </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configuration options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Hata</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>OverviewPage</name>
@@ -1279,7 +1501,7 @@
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Ödeme talebini alma URL'i geçersiz: %1</translation>
+        <translation>Ödeme talebini alma URL&apos;i geçersiz: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
@@ -1302,7 +1524,7 @@
         <translation>Ödeme talebi reddedildi</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>Ödeme talebi ağı, istemci ağıyla eşleşmiyor.</translation>
     </message>
     <message>
@@ -1366,11 +1588,26 @@
     </message>
     <message>
         <source>NodeId</source>
-        <translation>Düğüm ID'si</translation>
+        <translation>Düğüm ID&apos;si</translation>
     </message>
     <message>
         <source>Ping</source>
         <translation>Ping</translation>
+    </message>
+</context>
+<context>
+    <name>PreviewCodeDialog</name>
+    <message>
+        <source>Information about the bonus </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1413,23 +1650,33 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n saniye</numerusform><numerusform>%n saniye</numerusform></translation>
+        <translation>
+            <numerusform>%n saniye</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n dakika</numerusform><numerusform>%n dakika</numerusform></translation>
+        <translation>
+            <numerusform>%n dakika</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n saat</numerusform><numerusform>%n saat</numerusform></translation>
+        <translation>
+            <numerusform>%n saat</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n gün</numerusform><numerusform>%n gün</numerusform></translation>
+        <translation>
+            <numerusform>%n gün</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n hafta</numerusform><numerusform>%n hafta</numerusform></translation>
+        <translation>
+            <numerusform>%n hafta</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1437,26 +1684,44 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n yıl</numerusform><numerusform>%n yıl</numerusform></translation>
+        <translation>
+            <numerusform>%n yıl</numerusform>
+        </translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
+        <source>%1 didn&apos;t yet exit safely...</source>
         <translation>%1  henüz güvenli bir şekilde çıkış yapmamıştır...</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="unfinished">Hata: Belirtilen &quot;%1&quot; veri klasörü yoktur.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation type="unfinished">Hata: %1 yapılandırma dosyası ayrıştırılamadı. Sadece anahtar=değer dizimini kullanınız.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Hata: %1</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">bilinmiyor</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Hata: Belirtilen "%1" veri klasörü yoktur.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="obsolete">Hata: Belirtilen &quot;%1&quot; veri klasörü yoktur.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Hata: %1 yapılandırma dosyası ayrıştırılamadı. Sadece anahtar=değer dizimini kullanınız.</translation>
+        <translation type="obsolete">Hata: %1 yapılandırma dosyası ayrıştırılamadı. Sadece anahtar=değer dizimini kullanınız.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Hata: %1</translation>
+        <translation type="obsolete">Hata: %1</translation>
     </message>
 </context>
 <context>
@@ -1630,7 +1895,7 @@
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Güncel olarak göze çarpan bir ping'in süresi.</translation>
+        <translation>Güncel olarak göze çarpan bir ping&apos;in süresi.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
@@ -1662,7 +1927,7 @@
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Temizle</translation>
+        <translation type="obsolete">&amp;Temizle</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1718,7 +1983,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Tarihçede gezinmek için aşağı ve yukarı ok tuşlarını kullanınız, &lt;b&gt;Ctrl-L&lt;/b&gt; ile de ekranı temizleyebilirsiniz.</translation>
+        <translation type="obsolete">Tarihçede gezinmek için aşağı ve yukarı ok tuşlarını kullanınız, &lt;b&gt;Ctrl-L&lt;/b&gt; ile de ekranı temizleyebilirsiniz.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1726,7 +1991,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>UYARI: Bitcoin2X dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki bitcoinleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
+        <translation type="obsolete">UYARI: Bitcoin2X dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki bitcoinleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1779,6 +2044,18 @@
     <message>
         <source>Unknown</source>
         <translation>Bilinmiyor</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1853,7 +2130,7 @@
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>URI'yi kopyala</translation>
+        <translation>URI&apos;yi kopyala</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -1876,7 +2153,7 @@
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>&amp;URI'yi kopyala</translation>
+        <translation>&amp;URI&apos;yi kopyala</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
@@ -1920,7 +2197,7 @@
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>URI'nin QR koduna kodlanmasında hata oluştu.</translation>
+        <translation>URI&apos;nin QR koduna kodlanmasında hata oluştu.</translation>
     </message>
 </context>
 <context>
@@ -2025,8 +2302,8 @@
         <translation>kilobayt başı</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Eğer özel ücret 1000 satoşi olarak ayarlandıysa ve işlem sadece 250 baytsa, "kilobayt başı" ücret olarak sadece 250 satoşi öder ve "toplam asgari" 1000 satoşi öder. Bir kilobayttan yüksek işlemler için ikisi de kilobayt başı ödeme yapar.</translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Eğer özel ücret 1000 satoşi olarak ayarlandıysa ve işlem sadece 250 baytsa, &quot;kilobayt başı&quot; ücret olarak sadece 250 satoşi öder ve &quot;toplam asgari&quot; 1000 satoşi öder. Bir kilobayttan yüksek işlemler için ikisi de kilobayt başı ödeme yapar.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -2034,7 +2311,7 @@
     </message>
     <message>
         <source>total at least</source>
-        <translation>toplam asgari</translation>
+        <translation type="obsolete">toplam asgari</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin2X transactions than the network can process.</source>
@@ -2058,11 +2335,11 @@
     </message>
     <message>
         <source>normal</source>
-        <translation>normal</translation>
+        <translation type="obsolete">normal</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>çabuk</translation>
+        <translation type="obsolete">çabuk</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2158,7 +2435,7 @@
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Ödeyeceğiniz tutarın 0'dan yüksek olması gerekir.</translation>
+        <translation>Ödeyeceğiniz tutarın 0&apos;dan yüksek olması gerekir.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -2190,7 +2467,9 @@
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n blok</numerusform><numerusform>%n blok</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n blok</numerusform>
+        </translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
@@ -2198,7 +2477,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin2X address</source>
-        <translation>Uyarı: geçersiz Bitcoin2X adresi</translation>
+        <translation type="obsolete">Uyarı: geçersiz Bitcoin2X adresi</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2215,6 +2494,40 @@
     <message>
         <source>(no label)</source>
         <translation>(etiket yok)</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Indicates that the sender may wish to replace this transaction with a new one paying higher fees (prior to being confirmed).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request Replace-By-Fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This transaction signals replaceability (optin-RBF).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin2x address</source>
+        <translation type="unfinished">Uyarı: geçersiz Bitcoin2X adresi {2x?}</translation>
     </message>
 </context>
 <context>
@@ -2285,7 +2598,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin2X network.</source>
-        <translation>Referans için bitcoin: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Bitcoin2X ağı üzerinden gönderilmeyecektir.</translation>
+        <translation>Referans için bitcoin: URI&apos;siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Bitcoin2X ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2385,7 +2698,7 @@
         <translation>İletiyi &amp;kontrol et</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>Alıcının adresini, iletiyi (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıya giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya engel olmak için imzadan, imzalı iletinin içeriğini aşan bir anlam çıkarmamaya dikkat ediniz. Bunun sadece imzalayan tarafın adres ile alım yapabildiğini ispatladığını ve herhangi bir işlemin gönderi tarafını kanıtlayamayacağını unutmayınız!</translation>
     </message>
     <message>
@@ -2405,8 +2718,8 @@
         <translation>Tüm ileti kontrolü alanlarını sıfırla</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>İmzayı oluşturmak için "İletiyi İmzala"ya tıklayın</translation>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>İmzayı oluşturmak için &quot;İletiyi İmzala&quot;ya tıklayın</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2475,7 +2788,9 @@
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n taneden daha fazla blok için açık</numerusform><numerusform>%n taneden daha fazla blok için açık</numerusform></translation>
+        <translation>
+            <numerusform>%n taneden daha fazla blok için açık</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2523,7 +2838,9 @@
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, %n düğüm aracılığıyla yayınlandı</numerusform><numerusform>, %n düğüm aracılığıyla yayınlandı</numerusform></translation>
+        <translation>
+            <numerusform>, %n düğüm aracılığıyla yayınlandı</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
@@ -2567,7 +2884,9 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>%n ek blok sonrasında olgunlaşacak</numerusform><numerusform>%n ek blok sonrasında olgunlaşacak</numerusform></translation>
+        <translation>
+            <numerusform>%n ek blok sonrasında olgunlaşacak</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -2603,7 +2922,7 @@
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>İşlem ID'si</translation>
+        <translation>İşlem ID&apos;si</translation>
     </message>
     <message>
         <source>Transaction total size</source>
@@ -2618,8 +2937,8 @@
         <translation>Tüccar</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan bitcoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Oluşturulan bitcoin&apos;lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2673,7 +2992,9 @@
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n taneden daha fazla blok için açık</numerusform><numerusform>%n taneden daha fazla blok için açık</numerusform></translation>
+        <translation>
+            <numerusform>%n taneden daha fazla blok için açık</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2848,7 +3169,7 @@
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>İşlem ID'sini kopyala</translation>
+        <translation>İşlem ID&apos;sini kopyala</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
@@ -2926,6 +3247,10 @@
         <source>to</source>
         <translation>Alıcı</translation>
     </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2946,6 +3271,42 @@
     <message>
         <source>Send Coins</source>
         <translation>Bitcoini Gönder</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t sign transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3007,11 +3368,11 @@
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: 1 eğer -proxy veya -connect/-noconnect yoksa)</translation>
+        <translation type="obsolete">Dışarıdan gelen bağlantıları kabul et (varsayılan: 1 eğer -proxy veya -connect/-noconnect yoksa)</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>-noconnect ile yalnızca belirtilen düğümleri bağlayın veya yalnız otomatik bağlantıları devre dışı bırakmak için -connect=0 kullanın.</translation>
+        <translation type="obsolete">-noconnect ile yalnızca belirtilen düğümleri bağlayın veya yalnız otomatik bağlantıları devre dışı bırakmak için -connect=0 kullanın.</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3023,7 +3384,7 @@
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Budama, en düşük değer olan %d MiB'den düşük olarak ayarlanmıştır. Lütfen daha yüksek bir sayı kullanınız.</translation>
+        <translation>Budama, en düşük değer olan %d MiB&apos;den düşük olarak ayarlanmıştır. Lütfen daha yüksek bir sayı kullanınız.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
@@ -3082,8 +3443,8 @@
         <translation>Tüm cüzdan işlemlerini sil ve başlangıçta -rescan ile sadece blok zincirinin parçası olanları geri getir</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>%s yüklenmesinde hata: zaten var olan ve HD olmayan bir cüzdanda HD etkinleştirilemez.</translation>
+        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
+        <translation type="obsolete">%s yüklenmesinde hata: zaten var olan ve HD olmayan bir cüzdanda HD etkinleştirilemez.</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3110,7 +3471,7 @@
         <translation>Tek bir cüzdan işleminde ya da ham işlemde kullanılacak en yüksek toplam ücret (%s olarak); bunu çok düşük olarak ayarlamak büyük işlemleri iptal edebilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>Lütfen bilgisayarınızın saat ve tarihinin doğru olduğunu kontrol ediniz! Saatinizde gecikme varsa %s doğru şekilde çalışamaz.</translation>
     </message>
     <message>
@@ -3130,7 +3491,7 @@
         <translation>Betik kontrolü iş parçacıklarının sayısını belirler (%u ilâ %d, 0 = otomatik, &lt;0 = bu sayıda çekirdeği kullanma, varsayılan: %d)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
         <translation>Blok veritabanı gelecekten gibi görünen bir blok içermektedir. Bu, bilgisayarınızın saat ve tarihinin yanlış ayarlanmış olmasından kaynaklanabilir. Blok veritabanını sadece bilgisayarınızın tarih ve saatinin doğru olduğundan eminseniz yeniden derleyin.</translation>
     </message>
     <message>
@@ -3163,7 +3524,7 @@
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>-txindex'i değiştirmek için veritabanını -reindex-chainstate kullanarak tekrar inşa etmeniz gerekmektedir</translation>
+        <translation type="obsolete">-txindex&apos;i değiştirmek için veritabanını -reindex-chainstate kullanarak tekrar inşa etmeniz gerekmektedir</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3190,8 +3551,8 @@
         <translation>Blok oluşturma seçenekleri:</translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Çözümlenemedi - %s adres: '%s'</translation>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation>Çözümlenemedi - %s adres: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
@@ -3266,8 +3627,8 @@
         <translation>%s unsurunun yüklenmesinde hata oluştu: cüzdan %s programının yeni bir sürümüne ihtiyaç duyuyor</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>%s yüklenmesinde hata: zaten var olan HD bir cüzdanda HD devre dışı bırakılamaz.</translation>
+        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
+        <translation type="obsolete">%s yüklenmesinde hata: zaten var olan HD bir cüzdanda HD devre dışı bırakılamaz.</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -3298,16 +3659,16 @@
         <translation>Başlatma sınaması başarısız oldu. %s kapatılıyor.</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>Geçersiz -onion adresi: '%s'</translation>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="obsolete">Geçersiz -onion adresi: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>-%s=&lt;tutar&gt; için geçersiz tutar: '%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>-%s=&lt;tutar&gt; için geçersiz tutar: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation> -fallbackfee=&lt;tutar&gt; için geçersiz tutar: '%s'</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation> -fallbackfee=&lt;tutar&gt; için geçersiz tutar: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
@@ -3407,7 +3768,7 @@
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Cüzdan kontrol ediliyor...</translation>
+        <translation type="obsolete">Cüzdan kontrol ediliyor...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -3435,7 +3796,7 @@
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Belirtilen adrese bağlan ve JSON RPC bağlantıları için dinlemeye geç. IPv6 için [makine]:port imlasını kullanınız. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arayüzlere bağlan)</translation>
+        <translation type="obsolete">Belirtilen adrese bağlan ve JSON RPC bağlantıları için dinlemeye geç. IPv6 için [makine]:port imlasını kullanınız. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arayüzlere bağlan)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3462,8 +3823,8 @@
         <translation>Eğer paytxfee ayarlanmadıysa kafi derecede ücret ekleyin ki işlemler teyite vasati n blok içinde başlasın (varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>-maxtxfee=&lt;tutar&gt; için geçersiz tutar: '%s' (Sıkışmış işlemleri önlemek için en az %s değerinde en düşük aktarım ücretine eşit olmalıdır)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;tutar&gt; için geçersiz tutar: &apos;%s&apos; (Sıkışmış işlemleri önlemek için en az %s değerinde en düşük aktarım ücretine eşit olmalıdır)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3475,7 +3836,7 @@
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Yüksek öncelikli/düşük ücretli işlemlerin en yüksek boyutunu bayt olarak ayarla (varsayılan: %d)</translation>
+        <translation type="obsolete">Yüksek öncelikli/düşük ücretli işlemlerin en yüksek boyutunu bayt olarak ayarla (varsayılan: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3483,11 +3844,11 @@
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>BIP32'den sonra hiyerarşik determinist (HD) anahtar üretimini kullan. Sadece cüzdan oluşturulmasında/ilk başlamada etkiye sahiptir.</translation>
+        <translation>BIP32&apos;den sonra hiyerarşik determinist (HD) anahtar üretimini kullan. Sadece cüzdan oluşturulmasında/ilk başlamada etkiye sahiptir.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Beyaz listeye alınan eşler DoS yasaklamasına uğramazlar ve işlemleri zaten mempool'da olsalar da daima aktarılır, bu mesela bir geçit için kullanışlıdır</translation>
+        <translation>Beyaz listeye alınan eşler DoS yasaklamasına uğramazlar ve işlemleri zaten mempool&apos;da olsalar da daima aktarılır, bu mesela bir geçit için kullanışlıdır</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -3522,20 +3883,20 @@
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>-paytxfee=&lt;tutar&gt;:'%s' unsurunda geçersiz tutar (asgari %s olması lazımdır)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>-paytxfee=&lt;tutar&gt;:&apos;%s&apos; unsurunda geçersiz tutar (asgari %s olması lazımdır)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>-whitelist: '%s' unsurunda geçersiz bir ağ maskesi belirtildi</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>-whitelist: &apos;%s&apos; unsurunda geçersiz bir ağ maskesi belirtildi</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Hafızada en çok &lt;n&gt; bağlanılamaz işlem tut (varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>-whitebind: '%s' ile bir port belirtilmesi lazımdır</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>-whitebind: &apos;%s&apos; ile bir port belirtilmesi lazımdır</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3559,7 +3920,7 @@
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>İşlemleri mümkünse ücretsiz olarak gönder (varsayılan: %u)</translation>
+        <translation type="obsolete">İşlemleri mümkünse ücretsiz olarak gönder (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3647,7 +4008,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Adresler yükleniyor...</translation>
+        <translation type="obsolete">Adresler yükleniyor...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3675,7 +4036,7 @@
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>-checkblocks'un blok kontrolünün ne kadar kapsamlı olacağı (0 ilâ 4, varsayılan: %u)</translation>
+        <translation>-checkblocks&apos;un blok kontrolünün ne kadar kapsamlı olacağı (0 ilâ 4, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -3691,7 +4052,7 @@
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Adres sayısı azaldıysa DNS sorgulamasıyla eş adresleri ara (varsayılan: 1  -connect/-noconnect kullanılmadıysa)</translation>
+        <translation type="obsolete">Adres sayısı azaldıysa DNS sorgulamasıyla eş adresleri ara (varsayılan: 1  -connect/-noconnect kullanılmadıysa)</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
@@ -3718,7 +4079,7 @@
         <translation>Giden trafiği belirtilen hedefin altında tutmaya çalışır (24 saat başı MiB olarak), 0 = sınırsız (varsayılan: %d)</translation>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Desteklenmeyen -socks argümanı bulundu. SOCKS sürümünün ayarlanması artık mümkün değildir, sadece SOCKS5 vekilleri desteklenmektedir.</translation>
     </message>
     <message>
@@ -3730,7 +4091,7 @@
         <translation>Eşlere gizli Tor servisleri ile ulaşmak için ayrı SOCKS5 vekil sunucusu kullan (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>Uyarı: Bilinmeyen blok sürümü oluşturulmaya çalışılıyor. Bilinmeyen kuralların işlemesi mümkündür.</translation>
     </message>
     <message>
@@ -3762,12 +4123,12 @@
         <translation>Hata ayıklama çıktısına IP adreslerini dahil et (varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Geçersiz -proxy adresi: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="obsolete">Geçersiz -proxy adresi: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Keypool tükendi, lütfen önce keypoolrefill'i çağırın</translation>
+        <translation>Keypool tükendi, lütfen önce keypoolrefill&apos;i çağırın</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
@@ -3870,8 +4231,8 @@
         <translation>İşlemin en az bir alıcısı olması gerekir</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet için bilinmeyen bir ağ belirtildi: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>-onlynet için bilinmeyen bir ağ belirtildi: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3908,6 +4269,118 @@
     <message>
         <source>Error</source>
         <translation>Hata</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -connect=0 disables automatic connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t enable HD on an already existing non-HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d of last 100 blocks have unexpected version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(press q to shutdown and continue later)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading P2P addresses...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replaying blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.0" language="en">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -299,32 +299,42 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+357"/>
+        <location filename="../bitcoingui.cpp" line="+371"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
     <message>
-        <location line="+429"/>
+        <location line="+438"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <location line="-507"/>
+        <location line="-525"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
     <message>
-        <location line="-143"/>
+        <location line="-144"/>
         <source>Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+144"/>
+        <location line="+145"/>
         <source>Show general overview of wallet</source>
         <translation>Show general overview of wallet</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+18"/>
+        <source>&amp;Bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Browse page of bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transactions</translation>
     </message>
@@ -334,7 +344,7 @@
         <translation>Browse transaction history</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+24"/>
         <source>E&amp;xit</source>
         <translation>E&amp;xit</translation>
     </message>
@@ -404,7 +414,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+359"/>
+        <location line="+368"/>
         <source>Click to disable network activity.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -429,12 +439,12 @@
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <location line="-510"/>
+        <location line="-528"/>
         <source>Send coins to a Bitcoin2X address</source>
         <translation>Send coins to a Bitcoin2X address</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+76"/>
         <source>Backup wallet to another location</source>
         <translation>Backup wallet to another location</translation>
     </message>
@@ -459,27 +469,27 @@
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
-        <location line="+516"/>
+        <location line="+525"/>
         <source>Bitcoin</source>
         <translation>Bitcoin</translation>
     </message>
     <message>
-        <location line="-741"/>
+        <location line="-760"/>
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
     <message>
-        <location line="+152"/>
+        <location line="+153"/>
         <source>&amp;Send</source>
         <translation>&amp;Send</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+19"/>
         <source>&amp;Receive</source>
         <translation>&amp;Receive</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+51"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Show / Hide</translation>
     </message>
@@ -524,12 +534,12 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <location line="-158"/>
+        <location line="-159"/>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+71"/>
         <source>Show the list of used sending addresses and labels</source>
         <translation type="unfinished"></translation>
     </message>
@@ -549,9 +559,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+356"/>
+        <location line="+365"/>
         <source>%n active connection(s) to Bitcoin2X network</source>
-        <translation>
+        <translation type="unfinished">
             <numerusform>%n active connection to Bitcoin2X network</numerusform>
             <numerusform>%n active connections to Bitcoin2X network</numerusform>
         </translation>
@@ -610,17 +620,17 @@
         <translation>Up to date</translation>
     </message>
     <message>
-        <location line="-440"/>
+        <location line="-449"/>
         <source>Show the %1 help message to get a list with possible Bitcoin2X command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+199"/>
+        <location line="+201"/>
         <source>%1 client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+227"/>
+        <location line="+234"/>
         <source>Connecting to peers...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -692,6 +702,198 @@
     <message>
         <location filename="../bitcoin.cpp" line="+534"/>
         <source>A fatal error occurred. Bitcoin2X can no longer continue safely and will quit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BonusCodeTab</name>
+    <message>
+        <location filename="../forms/bonuscodetab.ui" line="+14"/>
+        <source>Bonus Code Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <location filename="../bonuscodetab.cpp" line="+65"/>
+        <source>Amount</source>
+        <translation type="unfinished">Amount</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Create a code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Created codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <location line="+120"/>
+        <source>Redeem code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-62"/>
+        <source>Code Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+84"/>
+        <source>Redeemed codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bonuscodetab.cpp" line="+0"/>
+        <source>Date</source>
+        <translation type="unfinished">Date</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Transaction hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>KeyWord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+66"/>
+        <location line="+40"/>
+        <source>Unconfirmed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-38"/>
+        <location line="+41"/>
+        <source>Used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-8"/>
+        <source>Unused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+71"/>
+        <location line="+8"/>
+        <source>Invalid key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-7"/>
+        <location line="+8"/>
+        <source>Check the key and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Code redemption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bonus code is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <location line="+20"/>
+        <location line="+13"/>
+        <source>Adding code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-32"/>
+        <source>Error adding key to wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>%0 Btx were received with this code.
+We recommend waiting for 3 transaction confirmations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>The bonus key was added to your wallet, but it was not possible to scan it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <location line="+18"/>
+        <location line="+36"/>
+        <location line="+6"/>
+        <location line="+7"/>
+        <location line="+16"/>
+        <source>Creating code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-82"/>
+        <source>You do not have the right amount in your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Key create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <source>Code create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Your code is created. The code will be available after confirmation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Solution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>In order to solve this problem, you need to rescan your wallet. Scanning a wallet will take some time want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Code create fail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Commission for the confirmation of the bonus code.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The key is no confirmed.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1169,7 +1371,7 @@
     <message>
         <location line="+7"/>
         <location line="+26"/>
-        <location filename="../modaloverlay.cpp" line="+138"/>
+        <location filename="../modaloverlay.cpp" line="+141"/>
         <source>Unknown...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1513,7 +1715,7 @@
         <translation>&amp;Cancel</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+84"/>
+        <location filename="../optionsdialog.cpp" line="+86"/>
         <source>default</source>
         <translation>default</translation>
     </message>
@@ -1813,6 +2015,24 @@
     </message>
 </context>
 <context>
+    <name>PreviewCodeDialog</name>
+    <message>
+        <location filename="../forms/previewcodedialog.ui" line="+14"/>
+        <source>Information about the bonus </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+151"/>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="+176"/>
@@ -1825,7 +2045,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+766"/>
+        <location line="+740"/>
         <source>%1 d</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1915,15 +2135,7 @@
         </translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+178"/>
-        <source>%1 didn&apos;t yet exit safely...</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>QObject::QObject</name>
-    <message>
-        <location line="-86"/>
+        <location filename="../bitcoin.cpp" line="+92"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1935,6 +2147,16 @@
     <message>
         <location line="+14"/>
         <source>Error: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+65"/>
+        <source>%1 didn&apos;t yet exit safely...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../modaloverlay.cpp" line="-28"/>
+        <source>unknown</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2100,7 +2322,7 @@
     </message>
     <message>
         <location line="+60"/>
-        <location filename="../rpcconsole.cpp" line="+467"/>
+        <location filename="../rpcconsole.cpp" line="+472"/>
         <location line="+728"/>
         <source>Select a peer to view detailed information.</source>
         <translation type="unfinished"></translation>
@@ -2598,7 +2820,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+586"/>
+        <location filename="../sendcoinsdialog.cpp" line="+578"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -2673,12 +2895,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+30"/>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+3"/>
         <source>Warning: Fee estimation is currently not possible.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2703,7 +2925,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+84"/>
+        <location line="+78"/>
         <location line="+13"/>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin2X transactions than the network can process.</source>
         <translation type="unfinished"></translation>
@@ -2729,17 +2951,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+106"/>
         <source>Request Replace-By-Fee</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-3"/>
         <source>Indicates that the sender may wish to replace this transaction with a new one paying higher fees (prior to being confirmed).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+82"/>
         <source>Send to multiple recipients at once</source>
         <translation>Send to multiple recipients at once</translation>
     </message>
@@ -2754,12 +2976,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-839"/>
+        <location line="-833"/>
         <source>Dust:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+700"/>
+        <location line="+694"/>
         <source>Confirmation time target:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2784,7 +3006,7 @@
         <translation>S&amp;end</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-499"/>
+        <location filename="../sendcoinsdialog.cpp" line="-491"/>
         <source>Copy quantity</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2819,12 +3041,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+76"/>
         <source>%1 (%2 blocks)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+129"/>
+        <location line="+127"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+4"/>
@@ -2907,7 +3129,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+66"/>
         <source>Pay only the required fee of %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2921,11 +3143,11 @@
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid Bitcoin2X address</source>
+        <source>Warning: Invalid Bitcoin2x address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+6"/>
         <source>Warning: Unknown change address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3677,7 +3899,7 @@
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+70"/>
+        <location filename="../transactionview.cpp" line="+71"/>
         <location line="+16"/>
         <source>All</source>
         <translation type="unfinished"></translation>
@@ -3748,7 +3970,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+48"/>
         <source>Abandon transaction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3798,7 +4020,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+194"/>
         <source>Export Transaction History</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3892,7 +4114,7 @@
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+291"/>
+        <location filename="../walletmodel.cpp" line="+295"/>
         <source>Send Coins</source>
         <translation type="unfinished">Send Coins</translation>
     </message>
@@ -3947,7 +4169,7 @@
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+46"/>
+        <location filename="../walletview.cpp" line="+48"/>
         <source>&amp;Export</source>
         <translation type="unfinished">&amp;Export</translation>
     </message>
@@ -3957,7 +4179,7 @@
         <translation type="unfinished">Export the data in the current tab to a file</translation>
     </message>
     <message>
-        <location line="+201"/>
+        <location line="+212"/>
         <source>Backup Wallet</source>
         <translation type="unfinished"></translation>
     </message>

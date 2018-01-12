@@ -1,4 +1,6 @@
-<TS language="es_ES" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="es_ES">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -415,7 +417,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "bitcoin:")</translation>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI &quot;bitcoin:&quot;)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,7 +429,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un identificador URI "bitcoin:" o una petición de pago</translation>
+        <translation>Abrir un identificador URI &quot;bitcoin:&quot; o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -435,7 +437,10 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin2X network</source>
-        <translation><numerusform>%n conexión activa hacia la red Bitcoin</numerusform><numerusform>%n conexiones activas hacia la red Bitcoin</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>%n conexión activa hacia la red Bitcoin</numerusform>
+            <numerusform>%n conexiones activas hacia la red Bitcoin</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -447,7 +452,10 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n bloque procesado del historial de transacciones.</numerusform><numerusform>%n bloques procesados del historial de transacciones.</numerusform></translation>
+        <translation>
+            <numerusform>%n bloque procesado del historial de transacciones.</numerusform>
+            <numerusform>%n bloques procesados del historial de transacciones.</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -479,7 +487,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin2X command-line options</source>
-        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de linea de comandos de Bitcoin</translation>
+        <translation type="unfinished">Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de linea de comandos de Bitcoin</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +557,159 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin2X can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error fatal. Bitcoin2X no puede continuar de manera segura y se cerrará.</translation>
+        <translation type="unfinished">Ha ocurrido un error fatal. Bitcoin2X no puede continuar de manera segura y se cerrará.</translation>
+    </message>
+    <message>
+        <source>&amp;Bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse page of bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BonusCodeTab</name>
+    <message>
+        <source>Bonus Code Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Cantidad</translation>
+    </message>
+    <message>
+        <source>Create a code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeem code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeemed codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Fecha</translation>
+    </message>
+    <message>
+        <source>Transaction hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>KeyWord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished">Sin confirmar</translation>
+    </message>
+    <message>
+        <source>Used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the key and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code redemption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bonus code is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adding code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error adding key to wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%0 Btx were received with this code.
+We recommend waiting for 3 transaction confirmations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The bonus key was added to your wallet, but it was not possible to scan it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have the right amount in your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your code is created. The code will be available after confirmation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Solution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In order to solve this problem, you need to rescan your wallet. Scanning a wallet will take some time want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commission for the confirmation of the bonus code.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key is no confirmed.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -742,12 +902,12 @@
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin2X address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Bitcoin2X válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin2X address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Bitcoin2X válida.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>La dirección introducida "%1" está ya en la agenda.</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>La dirección introducida &quot;%1&quot; está ya en la agenda.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -816,8 +976,8 @@
         <translation>Elegir directorio de datos al iniciar (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Establecer el idioma, por ejemplo, "es_ES" (predeterminado: configuración regional del sistema)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>Establecer el idioma, por ejemplo, &quot;es_ES&quot; (predeterminado: configuración regional del sistema)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -852,7 +1012,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin2X block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 va a descargar y almacenar una copia de la cadena de bloques de Bitcoin. Al menos %2GB de datos seran almacenados en este directorio, que ira creciendo con el tiempo. El monedero se guardara tambien en ese directorio. </translation>
+        <translation type="obsolete">%1 va a descargar y almacenar una copia de la cadena de bloques de Bitcoin. Al menos %2GB de datos seran almacenados en este directorio, que ira creciendo con el tiempo. El monedero se guardara tambien en ese directorio. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -863,8 +1023,8 @@
         <translation>Utilizar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Error: no ha podido crearse el directorio de datos especificado "%1".</translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation>Error: no ha podido crearse el directorio de datos especificado &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -872,11 +1032,49 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB de espacio libre</numerusform><numerusform>%n GB de espacio disponible</numerusform></translation>
+        <translation>
+            <numerusform>%n GB de espacio libre</numerusform>
+            <numerusform>%n GB de espacio disponible</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(de %n GB necesitados)</numerusform><numerusform>(de %n GB requeridos)</numerusform></translation>
+        <translation>
+            <numerusform>(de %n GB necesitados)</numerusform>
+            <numerusform>(de %n GB requeridos)</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation type="unfinished">Bitcoin</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin2X block chain.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -886,7 +1084,7 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
         <translation>Las transacciones recientes podrían no ser visibles todavía, por lo que el balance de la cartera podría ser incorrecto. Esta información será correcta una vez su cartera se haya terminado de sincronizar con la red bitcoin, como se detalla más abajo.</translation>
     </message>
     <message>
@@ -924,6 +1122,10 @@
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
         <translation>Desconocido. Sincronizando cabeceras (%1)...</translation>
+    </message>
+    <message>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1077,7 +1279,7 @@
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Muestra si el proxy SOCKS5 predeterminado es utilizado para llegar a los pares a traves de este tipo de red.</translation>
+        <translation type="obsolete">Muestra si el proxy SOCKS5 predeterminado es utilizado para llegar a los pares a traves de este tipo de red.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1182,6 +1384,34 @@
     <message>
         <source>The supplied proxy address is invalid.</source>
         <translation>La dirección proxy indicada es inválida.</translation>
+    </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configuration options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Error</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1298,7 +1528,7 @@
         <translation>Solicitud de pago rechazada</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>La red de solicitud de pago no cimbina la red cliente.</translation>
     </message>
     <message>
@@ -1370,6 +1600,21 @@
     </message>
 </context>
 <context>
+    <name>PreviewCodeDialog</name>
+    <message>
+        <source>Information about the bonus </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1409,46 +1654,84 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
+        <translation>
+            <numerusform>%n segundo</numerusform>
+            <numerusform>%n segundos</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
+        <translation>
+            <numerusform>%n minuto</numerusform>
+            <numerusform>%n minutos</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+        <translation>
+            <numerusform>%n hora</numerusform>
+            <numerusform>%n horas</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
+        <translation>
+            <numerusform>%n día</numerusform>
+            <numerusform>%n días</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
+        <translation>
+            <numerusform>%n semana</numerusform>
+            <numerusform>%n semanas</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 y %2</translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
+        <source>%1 didn&apos;t yet exit safely...</source>
         <translation>%1 aún no ha salido de manera segura...</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="unfinished">Error: directorio especificado &quot;%1&quot; no existe.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation type="unfinished">Error: no se puede interpretar el archivo de configuración: %1. Utilize exclusivamente sintaxis clave=valor.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Error: %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">desconocido</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Error: directorio especificado "%1" no existe.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="obsolete">Error: directorio especificado &quot;%1&quot; no existe.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Error: no se puede interpretar el archivo de configuración: %1. Utilize exclusivamente sintaxis clave=valor.</translation>
+        <translation type="obsolete">Error: no se puede interpretar el archivo de configuración: %1. Utilize exclusivamente sintaxis clave=valor.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Error: %1</translation>
+        <translation type="obsolete">Error: %1</translation>
     </message>
 </context>
 <context>
@@ -1654,7 +1937,7 @@
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Vaciar</translation>
+        <translation type="obsolete">&amp;Vaciar</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1706,7 +1989,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use las flechas arriba y abajo para navegar por el historial y &lt;b&gt;Control+L&lt;/b&gt; para vaciar la pantalla.</translation>
+        <translation type="obsolete">Use las flechas arriba y abajo para navegar por el historial y &lt;b&gt;Control+L&lt;/b&gt; para vaciar la pantalla.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1714,7 +1997,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>ADVERTENCIA: algunos estafadores han estado pidiendo a los usuarios que escriban comandos aquí, robando el contenido de sus carteras. No use esta consola sin entender completamente las ramificaciones del comando.</translation>
+        <translation type="obsolete">ADVERTENCIA: algunos estafadores han estado pidiendo a los usuarios que escriban comandos aquí, robando el contenido de sus carteras. No use esta consola sin entender completamente las ramificaciones del comando.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1767,6 +2050,22 @@
     <message>
         <source>Unknown</source>
         <translation>Desconocido</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2013,8 +2312,8 @@
         <translation>por kilobyte</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la tarifa de aduana se establece en 1000 satoshis y la transacción está a sólo 250 bytes, entonces "por kilobyte" sólo paga 250 satoshis de cuota, mientras que "el mínimo total" pagaría 1.000 satoshis. Para las transacciones más grandes que un kilobyte ambos pagan por kilobyte</translation>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la tarifa de aduana se establece en 1000 satoshis y la transacción está a sólo 250 bytes, entonces &quot;por kilobyte&quot; sólo paga 250 satoshis de cuota, mientras que &quot;el mínimo total&quot; pagaría 1.000 satoshis. Para las transacciones más grandes que un kilobyte ambos pagan por kilobyte</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -2022,7 +2321,7 @@
     </message>
     <message>
         <source>total at least</source>
-        <translation>total por lo menos</translation>
+        <translation type="obsolete">total por lo menos</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin2X transactions than the network can process.</source>
@@ -2046,11 +2345,11 @@
     </message>
     <message>
         <source>normal</source>
-        <translation>normal</translation>
+        <translation type="obsolete">normal</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>rápido</translation>
+        <translation type="obsolete">rápido</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2178,7 +2477,10 @@
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n bloque</numerusform><numerusform>%n bloques</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n bloque</numerusform>
+            <numerusform>%n bloques</numerusform>
+        </translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
@@ -2186,7 +2488,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin2X address</source>
-        <translation>Alerta: dirección Bitcoin2X inválida</translation>
+        <translation type="obsolete">Alerta: dirección Bitcoin2X inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2203,6 +2505,41 @@
     <message>
         <source>(no label)</source>
         <translation>(sin etiqueta)</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Indicates that the sender may wish to replace this transaction with a new one paying higher fees (prior to being confirmed).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request Replace-By-Fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This transaction signals replaceability (optin-RBF).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin2x address</source>
+        <translation type="unfinished">Alerta: dirección Bitcoin2X inválida {2x?}</translation>
     </message>
 </context>
 <context>
@@ -2373,7 +2710,7 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle. </translation>
     </message>
     <message>
@@ -2393,8 +2730,8 @@
         <translation>Vaciar todos los campos de la verificación de mensaje</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Click en "Fírmar mensaje" para generar una firma</translation>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>Click en &quot;Fírmar mensaje&quot; para generar una firma</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2463,7 +2800,10 @@
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Abierto para %n bloque más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
+        <translation>
+            <numerusform>Abierto para %n bloque más</numerusform>
+            <numerusform>Abierto para %n bloques más</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2594,8 +2934,8 @@
         <translation>Vendedor</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los bitcoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Los bitcoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a &quot;no aceptado&quot; y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2620,6 +2960,24 @@
     <message>
         <source>false</source>
         <translation>falso</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2742,6 +3100,13 @@
     <message>
         <source>Amount removed from or added to balance.</source>
         <translation>Cantidad retirada o añadida al saldo.</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished">
+            <numerusform>Abierto para %n bloque más</numerusform>
+            <numerusform>Abierto para %n bloques más</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -2898,6 +3263,10 @@
         <source>to</source>
         <translation>para</translation>
     </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2918,6 +3287,42 @@
     <message>
         <source>Send Coins</source>
         <translation>Enviar</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t sign transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3045,8 +3450,8 @@
         <translation>Borrar todas las transacciones del monedero y sólo recuperar aquellas partes de la cadena de bloques por medio de -rescan on startup.</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Error cargando %s: No puede habilitar HD en un monedero existente que no es HD</translation>
+        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
+        <translation type="obsolete">Error cargando %s: No puede habilitar HD en un monedero existente que no es HD</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3065,7 +3470,7 @@
         <translation>Máximas comisiones totales (en %s) para utilizar en una sola transacción de la cartera; establecer esto demasiado bajo puede abortar grandes transacciones (predeterminado: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>Por favor, compruebe si la fecha y hora en su computadora son correctas! Si su reloj esta mal, %s no trabajara correctamente. </translation>
     </message>
     <message>
@@ -3077,7 +3482,7 @@
         <translation>Establecer el número de hilos (threads) de verificación de scripts (entre %u y %d, 0 = automático, &lt;0 = dejar libres ese número de núcleos; predeterminado: %d)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
         <translation>La base de datos de bloques contiene un bloque que parece ser del futuro. Esto puede ser porque la fecha y hora de tu ordenador están mal ajustados. Reconstruye la base de datos de bloques solo si estas seguro de que la fecha y hora de tu ordenador estan ajustados correctamente.</translation>
     </message>
     <message>
@@ -3090,7 +3495,7 @@
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Necesita reconstruir la base de datos usando -reindex-chainstate para cambiar -txindex</translation>
+        <translation type="obsolete">Necesita reconstruir la base de datos usando -reindex-chainstate para cambiar -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3117,8 +3522,8 @@
         <translation>Opciones de creación de bloques:</translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>No se puede resolver -%s direccion: '%s'</translation>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation>No se puede resolver -%s direccion: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Change index out of range</source>
@@ -3189,8 +3594,8 @@
         <translation>Error cargando %s: Monedero requiere un versión mas reciente de %s</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>Error cargando %s: No puede deshabilitar HD en un monedero existente que ya es HD</translation>
+        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
+        <translation type="obsolete">Error cargando %s: No puede deshabilitar HD en un monedero existente que ya es HD</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -3221,16 +3626,16 @@
         <translation>La inicialización de la verificación de validez falló. Se está apagando %s.</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>Dirección -onion inválida: '%s'</translation>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="obsolete">Dirección -onion inválida: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Cantidad no valida para -%s=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Cantidad no valida para -%s=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Cantidad inválida para -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Cantidad inválida para -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
@@ -3326,7 +3731,7 @@
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Verificando monedero...</translation>
+        <translation type="obsolete">Verificando monedero...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -3354,7 +3759,7 @@
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Ligar a las direcciones especificadas para escuchar por conexiones JSON-RPC. Usar la notación para IPv6 [host]:puerto. Esta opción se puede especificar múltiples veces (por defecto: ligar a todas las interfaces)</translation>
+        <translation type="obsolete">Ligar a las direcciones especificadas para escuchar por conexiones JSON-RPC. Usar la notación para IPv6 [host]:puerto. Esta opción se puede especificar múltiples veces (por defecto: ligar a todas las interfaces)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3381,8 +3786,8 @@
         <translation>Si el pago de comisión no está establecido, incluir la cuota suficiente para que las transacciones comiencen la confirmación en una media de n bloques ( por defecto :%u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Cantidad no válida para -maxtxfee=&lt;amount&gt;: '%s' (debe ser por lo menos la cuota de comisión mínima de %s para prevenir transacciones atascadas)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Cantidad no válida para -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (debe ser por lo menos la cuota de comisión mínima de %s para prevenir transacciones atascadas)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3394,7 +3799,7 @@
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Establecer tamaño máximo de las transacciones de alta prioridad/baja comisión en bytes (predeterminado: %d)</translation>
+        <translation type="obsolete">Establecer tamaño máximo de las transacciones de alta prioridad/baja comisión en bytes (predeterminado: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3441,20 +3846,20 @@
         <translation>Información</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Cantidad inválida para -paytxfee=&lt;amount&gt;: '%s' (debe ser por lo menos %s)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>Cantidad inválida para -paytxfee=&lt;amount&gt;: &apos;%s&apos; (debe ser por lo menos %s)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Máscara de red inválida especificada en -whitelist: '%s'</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>Máscara de red inválida especificada en -whitelist: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Mantener como máximo &lt;n&gt; transacciones no conectables en memoria (por defecto: %u)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Necesita especificar un puerto con -whitebind: '%s'</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>Necesita especificar un puerto con -whitebind: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3478,7 +3883,7 @@
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Mandar transacciones como comisión-cero si es posible (por defecto: %u)</translation>
+        <translation type="obsolete">Mandar transacciones como comisión-cero si es posible (por defecto: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3568,7 +3973,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Cargando direcciones...</translation>
+        <translation type="obsolete">Cargando direcciones...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3619,7 +4024,7 @@
         <translation>La longitud total de la cadena de versión de red ( %i ) supera la longitud máxima ( %i ) . Reducir el número o tamaño de uacomments .</translation>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Error:  argumento -socks encontrado. El ajuste de la versión SOCKS ya no es posible, sólo proxies SOCKS5 son compatibles.</translation>
     </message>
     <message>
@@ -3631,7 +4036,7 @@
         <translation>Usar distintos proxys SOCKS5 para comunicarse vía Tor de forma anónima (Por defecto: %s)</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>Advertencia: Se están minando versiones de bloques desconocidas! Es posible que normas desconocidas estén activas</translation>
     </message>
     <message>
@@ -3659,8 +4064,8 @@
         <translation>Incluir direcciones IP en la salida de depuración (por defecto: %u)</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Dirección -proxy inválida: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="obsolete">Dirección -proxy inválida: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
@@ -3743,8 +4148,8 @@
         <translation>Las cantidades de las transacciones no pueden ser negativas.</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>La red especificada en -onlynet '%s' es desconocida</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>La red especificada en -onlynet &apos;%s&apos; es desconocida</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3781,6 +4186,210 @@
     <message>
         <source>Error</source>
         <translation>Error</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -connect=0 disables automatic connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t enable HD on an already existing non-HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d of last 100 blocks have unexpected version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(press q to shutdown and continue later)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chain selection options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading P2P addresses...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replaying blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the test chain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

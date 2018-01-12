@@ -1,4 +1,6 @@
-<TS language="hu" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="hu">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -93,7 +95,11 @@
         <source>Exporting Failed</source>
         <translation>Hiba az exportálás során</translation>
     </message>
-    </context>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -408,7 +414,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+        <translation>Fizetési kérelem (QR-kódot és &quot;bitcoin:&quot; URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -420,7 +426,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>"bitcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <translation>&quot;bitcoin:&quot; URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -428,7 +434,9 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin2X network</source>
-        <translation><numerusform>%n aktív kapcsolat a Bitcoin2X hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin2X hálózathoz</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>%n aktív kapcsolat a Bitcoin2X hálózathoz</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -440,7 +448,9 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform><numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform></translation>
+        <translation>
+            <numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -472,7 +482,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin2X command-line options</source>
-        <translation>A %1 súgó megjelenítése a Bitcoin2X lehetséges parancssori kapcsolóinak listájával</translation>
+        <translation type="unfinished">A %1 súgó megjelenítése a Bitcoin2X lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -542,7 +552,163 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin2X can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. A Bitcoin2X működése nem biztonságos és hamarosan leáll.</translation>
+        <translation type="unfinished">Végzetes hiba történt. A Bitcoin2X működése nem biztonságos és hamarosan leáll.</translation>
+    </message>
+    <message>
+        <source>&amp;Bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse page of bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BonusCodeTab</name>
+    <message>
+        <source>Bonus Code Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Összeg</translation>
+    </message>
+    <message>
+        <source>Create a code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeem code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeemed codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Dátum</translation>
+    </message>
+    <message>
+        <source>Transaction hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>KeyWord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished">Megerősítetlen</translation>
+    </message>
+    <message>
+        <source>Used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the key and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code redemption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bonus code is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adding code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error adding key to wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%0 Btx were received with this code.
+We recommend waiting for 3 transaction confirmations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The bonus key was added to your wallet, but it was not possible to scan it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have the right amount in your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your code is created. The code will be available after confirmation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Solution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In order to solve this problem, you need to rescan your wallet. Scanning a wallet will take some time want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commission for the confirmation of the bonus code.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key is no confirmed.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -691,6 +857,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>(change)</source>
         <translation>(visszajáró)</translation>
     </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
@@ -731,12 +901,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin2X address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin2X address.</source>
+        <translation>A megadott &quot;%1&quot; cím nem egy érvényes Bitcoin-cím.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -764,6 +934,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Adatkönyvtár nem hozható itt létre.</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -801,8 +975,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Adatkönyvtár kiválasztása induláskor (alapértelmezett:  %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Nyelvbeállítás, például "de_DE" (alapértelmezett: rendszer nyelve)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>Nyelvbeállítás, például &quot;de_DE&quot; (alapértelmezett: rendszer nyelve)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -844,8 +1018,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Hiba: A megadott "%1" adatkönyvtár nem hozható létre. </translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation>Hiba: A megadott &quot;%1&quot; adatkönyvtár nem hozható létre. </translation>
     </message>
     <message>
         <source>Error</source>
@@ -853,9 +1027,49 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB elérhető szabad hely</numerusform><numerusform>%n GB elérhető szabad hely</numerusform></translation>
+        <translation>
+            <numerusform>%n GB elérhető szabad hely</numerusform>
+        </translation>
     </message>
-    </context>
+    <message>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation type="unfinished">Bitcoin</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin2X block chain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>ModalOverlay</name>
     <message>
@@ -863,7 +1077,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
         <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a Bitcoin2X hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
     </message>
     <message>
@@ -1160,6 +1374,34 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>The supplied proxy address is invalid.</source>
         <translation>A megadott proxy cím nem érvényes.</translation>
     </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configuration options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Hiba</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>OverviewPage</name>
@@ -1271,7 +1513,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A fizetési kérelem visszautasítva</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>A fizetési kérelmi hálózat nem egyezik a kliens hálózatával.</translation>
     </message>
     <message>
@@ -1318,6 +1560,14 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>Payment acknowledged</source>
         <translation>Fizetés elfogadva</translation>
     </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PeerTableModel</name>
@@ -1336,6 +1586,21 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Ping</source>
         <translation>Ping</translation>
+    </message>
+</context>
+<context>
+    <name>PreviewCodeDialog</name>
+    <message>
+        <source>Information about the bonus </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1381,19 +1646,71 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>%1 és %2</translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
+        <source>%1 didn&apos;t yet exit safely...</source>
         <translation>%1 még nem lépett ki biztonságosan...</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="unfinished">Hiba: A megadott &quot;%1&quot; adatkönyvtár nem létezik. </translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Hiba: %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">ismeretlen</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Hiba: A megadott "%1" adatkönyvtár nem létezik. </translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="obsolete">Hiba: A megadott &quot;%1&quot; adatkönyvtár nem létezik. </translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Hiba: %1</translation>
+        <translation type="obsolete">Hiba: %1</translation>
     </message>
 </context>
 <context>
@@ -1595,7 +1912,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Törlés</translation>
+        <translation type="obsolete">&amp;Törlés</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1651,7 +1968,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Navigálhat a fel és le nyilakkal, és &lt;b&gt;Ctrl-L&lt;/b&gt; -vel törölheti a képernyőt.</translation>
+        <translation type="obsolete">Navigálhat a fel és le nyilakkal, és &lt;b&gt;Ctrl-L&lt;/b&gt; -vel törölheti a képernyőt.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1708,6 +2025,22 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Unknown</source>
         <translation>Ismeretlen</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1967,11 +2300,11 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>normal</source>
-        <translation>normál</translation>
+        <translation type="obsolete">normál</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>gyors</translation>
+        <translation type="obsolete">gyors</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2091,7 +2424,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Warning: Invalid Bitcoin2X address</source>
-        <translation>Figyelmeztetés: Érvénytelen Bitcoin2X cím</translation>
+        <translation type="obsolete">Figyelmeztetés: Érvénytelen Bitcoin2X cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2108,6 +2441,68 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin2X transactions than the network can process.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Indicates that the sender may wish to replace this transaction with a new one paying higher fees (prior to being confirmed).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request Replace-By-Fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This transaction signals replaceability (optin-RBF).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin2x address</source>
+        <translation type="unfinished">Figyelmeztetés: Érvénytelen Bitcoin2X cím {2x?}</translation>
     </message>
 </context>
 <context>
@@ -2171,6 +2566,26 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Adjon egy címkét ehhez a címhez, hogy bekerüljön a címtárába</translation>
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin2X network.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2262,8 +2677,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Klikkeljen az "Üzenet Aláírása" -ra, hogy aláírást generáljon</translation>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>Klikkeljen az &quot;Üzenet Aláírása&quot; -ra, hogy aláírást generáljon</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2304,6 +2719,30 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Message verified.</source>
         <translation>Üzenet ellenőrizve.</translation>
+    </message>
+    <message>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2462,6 +2901,44 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>false</source>
         <translation>hamis</translation>
     </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -2469,7 +2946,11 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Ez a mező a tranzakció részleteit mutatja</translation>
     </message>
-    </context>
+    <message>
+        <source>Details for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>TransactionTableModel</name>
     <message>
@@ -2568,7 +3049,25 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Egy csak megfigyelt cím érintett vagy nem ebben a tranzakcióban.</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>TransactionView</name>
     <message>
@@ -2703,18 +3202,86 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>Range:</source>
         <translation>Tartomány:</translation>
     </message>
-    </context>
+    <message>
+        <source>Received with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Abandon transaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy raw transaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>WalletFrame</name>
-    </context>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
         <translation>Érmék Küldése</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t sign transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2746,6 +3313,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>A tárca adatai sikeresen elmentve %1.</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2856,7 +3427,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Tárca ellenőrzése...</translation>
+        <translation type="obsolete">Tárca ellenőrzése...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -2926,10 +3497,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Címek betöltése...</translation>
+        <translation type="obsolete">Címek betöltése...</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>Figyelem: Ismeretlen blokkokat bányásznak! Lehetséges, hogy ismeretlen szabályok érvényesek.</translation>
     </message>
     <message>
@@ -2945,8 +3516,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>IP-címek megjelenítése a naplóban (alapértelmezett: %u)</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Érvénytelen -proxy cím: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="obsolete">Érvénytelen -proxy cím: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -2997,8 +3568,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Legalább egy címzett kell a tranzakcióhoz</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>Ismeretlen hálózat lett megadva -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3035,6 +3606,722 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Error</source>
         <translation>Hiba</translation>
+    </message>
+    <message>
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -connect=0 disables automatic connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t enable HD on an already existing non-HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d of last 100 blocks have unexpected version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s corrupt, salvage failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(press q to shutdown and continue later)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append comment to the user agent string</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chain selection options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change index out of range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable transaction replacement in the memory pool (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file on startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. %s is shutting down.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading P2P addresses...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Make the wallet broadcast transactions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Print this help message and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Print version and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pruning blockstore...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replaying blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions on startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rewinding blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The source code is available from %s.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tor control port password (default: empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction too large for fee policy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported argument -tor found, use -onion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format on startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the test chain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wallet debugging/testing options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: unknown new rules activated (versionbit %i)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whether to operate in a blocks only mode (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ZeroMQ notification options:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

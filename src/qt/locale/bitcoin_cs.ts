@@ -1,4 +1,6 @@
-<TS language="cs" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -435,7 +437,11 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin2X network</source>
-        <translation><numerusform>%n aktivní spojení do bitcoinové sítě</numerusform><numerusform>%n aktivní spojení do bitcoinové sítě</numerusform><numerusform>%n aktivních spojení do bitcoinové sítě</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>%n aktivní spojení do bitcoinové sítě</numerusform>
+            <numerusform>%n aktivní spojení do bitcoinové sítě</numerusform>
+            <numerusform>%n aktivních spojení do bitcoinové sítě</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -447,7 +453,11 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
+        <translation>
+            <numerusform>Zpracován %n blok transakční historie.</numerusform>
+            <numerusform>Zpracovány %n bloky transakční historie.</numerusform>
+            <numerusform>Zpracováno %n bloků transakční historie.</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -479,7 +489,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin2X command-line options</source>
-        <translation>Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <translation type="unfinished">Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +559,159 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin2X can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Bitcoin2X nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <translation type="unfinished">Stala se fatální chyba. Bitcoin2X nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+    </message>
+    <message>
+        <source>&amp;Bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse page of bonus codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BonusCodeTab</name>
+    <message>
+        <source>Bonus Code Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="unfinished">Částka</translation>
+    </message>
+    <message>
+        <source>Create a code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeem code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redeemed codes:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Datum</translation>
+    </message>
+    <message>
+        <source>Transaction hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>KeyWord</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished">Nepotvrzeno</translation>
+    </message>
+    <message>
+        <source>Used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the key and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code redemption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bonus code is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adding code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error adding key to wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%0 Btx were received with this code.
+We recommend waiting for 3 transaction confirmations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The bonus key was added to your wallet, but it was not possible to scan it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have the right amount in your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your code is created. The code will be available after confirmation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Solution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In order to solve this problem, you need to rescan your wallet. Scanning a wallet will take some time want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code create fail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commission for the confirmation of the bonus code.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key is no confirmed.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -742,11 +904,11 @@
         <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin2X address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin2X address.</source>
         <translation>Zadaná adresa „%1“ není platná bitcoinová adresa.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Zadaná adresa „%1“ už v adresáři je.</translation>
     </message>
     <message>
@@ -816,7 +978,7 @@
         <translation>Zvolit při startu adresář pro data (výchozí: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Nastavit jazyk, například „de_DE“ (výchozí: systémové nastavení)</translation>
     </message>
     <message>
@@ -852,7 +1014,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin2X block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %2 GB dat – toto číslo bude navíc v průběhu času růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
+        <translation type="obsolete">%1 bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %2 GB dat – toto číslo bude navíc v průběhu času růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -863,7 +1025,7 @@
         <translation>Použij tento adresář pro data:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
         <translation>Chyba: Nejde vytvořit požadovaný adresář pro data „%1“.</translation>
     </message>
     <message>
@@ -872,11 +1034,51 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB volného místa</numerusform><numerusform>%n GB volného místa</numerusform><numerusform>%n GB volného místa</numerusform></translation>
+        <translation>
+            <numerusform>%n GB volného místa</numerusform>
+            <numerusform>%n GB volného místa</numerusform>
+            <numerusform>%n GB volného místa</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(z potřebného %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform></translation>
+        <translation>
+            <numerusform>(z potřebného %n GB)</numerusform>
+            <numerusform>(z potřebných %n GB)</numerusform>
+            <numerusform>(z potřebných %n GB)</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation type="unfinished">Bitcoin</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin2X block chain.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -886,7 +1088,7 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bitcoin2X network, as detailed below.</source>
         <translation>Nedávné transakce ještě nemusí být vidět, takže stav tvého účtu nemusí být platný. Jakmile se však tvá peněženka dosynchronizuje s bitcoinovou sítí (viz informace níže), tak už bude stav správně.</translation>
     </message>
     <message>
@@ -1081,7 +1283,7 @@
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Ukazuje, jestli se zadaná výchozí SOCKS5 proxy používá k připojování k peerům v rámci tohoto typu sítě.</translation>
+        <translation type="obsolete">Ukazuje, jestli se zadaná výchozí SOCKS5 proxy používá k připojování k peerům v rámci tohoto typu sítě.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1186,6 +1388,34 @@
     <message>
         <source>The supplied proxy address is invalid.</source>
         <translation>Zadaná adresa proxy je neplatná.</translation>
+    </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configuration options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Chyba</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1302,7 +1532,7 @@
         <translation>Platební požadavek byl odmítnut</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>Síť platebního požadavku neodpovídá síti klienta.</translation>
     </message>
     <message>
@@ -1374,6 +1604,21 @@
     </message>
 </context>
 <context>
+    <name>PreviewCodeDialog</name>
+    <message>
+        <source>Information about the bonus </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1413,23 +1658,43 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n vteřinu</numerusform><numerusform>%n vteřiny</numerusform><numerusform>%n vteřin</numerusform></translation>
+        <translation>
+            <numerusform>%n vteřinu</numerusform>
+            <numerusform>%n vteřiny</numerusform>
+            <numerusform>%n vteřin</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minutu</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform></translation>
+        <translation>
+            <numerusform>%n minutu</numerusform>
+            <numerusform>%n minuty</numerusform>
+            <numerusform>%n minut</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hodinu</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodin</numerusform></translation>
+        <translation>
+            <numerusform>%n hodinu</numerusform>
+            <numerusform>%n hodiny</numerusform>
+            <numerusform>%n hodin</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n den</numerusform><numerusform>%n dny</numerusform><numerusform>%n dnů</numerusform></translation>
+        <translation>
+            <numerusform>%n den</numerusform>
+            <numerusform>%n dny</numerusform>
+            <numerusform>%n dnů</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n týden</numerusform><numerusform>%n týdny</numerusform><numerusform>%n týdnů</numerusform></translation>
+        <translation>
+            <numerusform>%n týden</numerusform>
+            <numerusform>%n týdny</numerusform>
+            <numerusform>%n týdnů</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1437,26 +1702,46 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n roků</numerusform></translation>
+        <translation>
+            <numerusform>%n rok</numerusform>
+            <numerusform>%n roky</numerusform>
+            <numerusform>%n roků</numerusform>
+        </translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
+        <source>%1 didn&apos;t yet exit safely...</source>
         <translation>%1 ještě bezpečně neskončil…</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="unfinished">Chyba: Zadaný adresář pro data „%1“ neexistuje.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation type="unfinished">Chyba: Nemohu zpracovat konfigurační soubor: %1. Používej pouze syntaxi klíč=hodnota.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished">Chyba: %1</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished">neznámo</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Chyba: Zadaný adresář pro data „%1“ neexistuje.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation type="obsolete">Chyba: Zadaný adresář pro data „%1“ neexistuje.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Chyba: Nemohu zpracovat konfigurační soubor: %1. Používej pouze syntaxi klíč=hodnota.</translation>
+        <translation type="obsolete">Chyba: Nemohu zpracovat konfigurační soubor: %1. Používej pouze syntaxi klíč=hodnota.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Chyba: %1</translation>
+        <translation type="obsolete">Chyba: %1</translation>
     </message>
 </context>
 <context>
@@ -1662,7 +1947,7 @@
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Vyčistit</translation>
+        <translation type="obsolete">&amp;Vyčistit</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1718,7 +2003,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>V historii se pohybuješ šipkami nahoru a dolů a pomocí &lt;b&gt;Ctrl-L&lt;/b&gt; čistíš obrazovku.</translation>
+        <translation type="obsolete">V historii se pohybuješ šipkami nahoru a dolů a pomocí &lt;b&gt;Ctrl-L&lt;/b&gt; čistíš obrazovku.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1726,7 +2011,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>UPOZORNĚNÍ: Podvodníci jsou aktivní a říkají uživatelům, aby sem zadávali příkazy, kterými jim pak ale vykradou jejich peněženky. Nepoužívej tuhle konzoli, pokud úplně neznáš důsledky jednotlivých příkazů.</translation>
+        <translation type="obsolete">UPOZORNĚNÍ: Podvodníci jsou aktivní a říkají uživatelům, aby sem zadávali příkazy, kterými jim pak ale vykradou jejich peněženky. Nepoužívej tuhle konzoli, pokud úplně neznáš důsledky jednotlivých příkazů.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1779,6 +2064,18 @@
     <message>
         <source>Unknown</source>
         <translation>Neznámá</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2025,7 +2322,7 @@
         <translation>za kilobajt</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Pokud je vlastní poplatek nastavený na 1000 satoshi a transakce má pouze 250 bajtů, tak „za kilobajt“ zaplatí poplatek jen 250 satoshi, zatímco „přinejmenším“ zaplatí 1000 satoshi. Pro transakce větší než kilobajt obě možnosti platí za kilobajt.</translation>
     </message>
     <message>
@@ -2034,7 +2331,7 @@
     </message>
     <message>
         <source>total at least</source>
-        <translation>přinejmenším</translation>
+        <translation type="obsolete">přinejmenším</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin2X transactions than the network can process.</source>
@@ -2058,11 +2355,11 @@
     </message>
     <message>
         <source>normal</source>
-        <translation>normální</translation>
+        <translation type="obsolete">normální</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>rychlá</translation>
+        <translation type="obsolete">rychlá</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2190,7 +2487,11 @@
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
-        <translation><numerusform>%n blok</numerusform><numerusform>%n bloky</numerusform><numerusform>%n bloků</numerusform></translation>
+        <translation type="obsolete">
+            <numerusform>%n blok</numerusform>
+            <numerusform>%n bloky</numerusform>
+            <numerusform>%n bloků</numerusform>
+        </translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
@@ -2198,11 +2499,15 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
+        <translation>
+            <numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform>
+            <numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform>
+            <numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform>
+        </translation>
     </message>
     <message>
         <source>Warning: Invalid Bitcoin2X address</source>
-        <translation>Upozornění: Neplatná bitcoinová adresa</translation>
+        <translation type="obsolete">Upozornění: Neplatná bitcoinová adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2219,6 +2524,34 @@
     <message>
         <source>(no label)</source>
         <translation>(bez označení)</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Indicates that the sender may wish to replace this transaction with a new one paying higher fees (prior to being confirmed).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request Replace-By-Fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This transaction signals replaceability (optin-RBF).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin2x address</source>
+        <translation type="unfinished">Upozornění: Neplatná bitcoinová adresa {2x?}</translation>
     </message>
 </context>
 <context>
@@ -2389,7 +2722,7 @@
         <translation>&amp;Ověř zprávu</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
@@ -2409,7 +2742,7 @@
         <translation>Vymaž všechna pole formuláře pro ověření zrávy</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Kliknutím na „Podepiš zprávu“ vygeneruješ podpis</translation>
     </message>
     <message>
@@ -2479,7 +2812,11 @@
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otevřeno pro %n další blok</numerusform><numerusform>Otevřeno pro %n další bloky</numerusform><numerusform>Otevřeno pro %n dalších bloků</numerusform></translation>
+        <translation>
+            <numerusform>Otevřeno pro %n další blok</numerusform>
+            <numerusform>Otevřeno pro %n další bloky</numerusform>
+            <numerusform>Otevřeno pro %n dalších bloků</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2527,7 +2864,11 @@
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, rozesláno přes %n uzel</numerusform><numerusform>, rozesláno přes %n uzly</numerusform><numerusform>, rozesláno přes %n uzlů</numerusform></translation>
+        <translation>
+            <numerusform>, rozesláno přes %n uzel</numerusform>
+            <numerusform>, rozesláno přes %n uzly</numerusform>
+            <numerusform>, rozesláno přes %n uzlů</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
@@ -2571,7 +2912,11 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>dozraje po %n bloku</numerusform><numerusform>dozraje po %n blocích</numerusform><numerusform>dozraje po %n blocích</numerusform></translation>
+        <translation>
+            <numerusform>dozraje po %n bloku</numerusform>
+            <numerusform>dozraje po %n blocích</numerusform>
+            <numerusform>dozraje po %n blocích</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -2622,7 +2967,7 @@
         <translation>Obchodník</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Vygenerované mince musí čekat %1 bloků, než mohou být utraceny. Když jsi vygeneroval tenhle blok, tak byl rozposlán do sítě, aby byl přidán do řetězce bloků. Pokud se mu nepodaří dostat se do řetězce, změní se na „neakceptovaný“ a nepůjde utratit. To se občas může stát, pokud jiný uzel vygeneruje blok zhruba ve stejném okamžiku jako ty.</translation>
     </message>
     <message>
@@ -2677,7 +3022,11 @@
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otevřeno pro %n další blok</numerusform><numerusform>Otevřeno pro %n další bloky</numerusform><numerusform>Otevřeno pro %n dalších bloků</numerusform></translation>
+        <translation>
+            <numerusform>Otevřeno pro %n další blok</numerusform>
+            <numerusform>Otevřeno pro %n další bloky</numerusform>
+            <numerusform>Otevřeno pro %n dalších bloků</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2930,6 +3279,10 @@
         <source>to</source>
         <translation>až</translation>
     </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2950,6 +3303,42 @@
     <message>
         <source>Send Coins</source>
         <translation>Pošli mince</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t sign transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3011,11 +3400,11 @@
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>Přijímat spojení zvenčí (výchozí: 1, pokud není zadáno -proxy nebo -connect/-noconnect)</translation>
+        <translation type="obsolete">Přijímat spojení zvenčí (výchozí: 1, pokud není zadáno -proxy nebo -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>Připojovat se pouze k určeným uzlům; samotné -noconnect nebo -connect=0 zakáží automatické připojování</translation>
+        <translation type="obsolete">Připojovat se pouze k určeným uzlům; samotné -noconnect nebo -connect=0 zakáží automatické připojování</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3086,8 +3475,8 @@
         <translation>Smazat všechny transakce peněženky a při startu obnovit pouze relevantní části řetězce bloků pomocí -rescan</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Chyba při načítání %s: nemůžeš zapnout HD u existující ne-HD peněženky</translation>
+        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
+        <translation type="obsolete">Chyba při načítání %s: nemůžeš zapnout HD u existující ne-HD peněženky</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3114,7 +3503,7 @@
         <translation>Horní hranice pro celkový poplatek (v %s) za jednu transakci z peněženky nebo jednu surovou transakci; příliš nízká hodnota může zmařit velké transakce (výchozí: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, %s nebude fungovat správně.</translation>
     </message>
     <message>
@@ -3134,7 +3523,7 @@
         <translation>Nastavení počtu vláken pro verifikaci skriptů (%u až %d, 0 = automaticky, &lt;0 = nechat daný počet jader volný, výchozí: %d)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
         <translation>Databáze bloků obsahuje blok, který vypadá jako z budoucnosti, což může být kvůli špatně nastavenému datu a času na tvém počítači. Nech databázi bloků přestavět pouze v případě, že si jsi jistý, že máš na počítači správný datum a čas</translation>
     </message>
     <message>
@@ -3167,7 +3556,7 @@
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Je třeba přestavět databázi použitím -reindex-chainstate, aby bylo možné změnit -txindex</translation>
+        <translation type="obsolete">Je třeba přestavět databázi použitím -reindex-chainstate, aby bylo možné změnit -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3194,8 +3583,8 @@
         <translation>Možnosti vytváření bloku:</translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Nemohu přeložit -%s adresu: '%s'</translation>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation>Nemohu přeložit -%s adresu: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
@@ -3270,8 +3659,8 @@
         <translation>Chyba při načítání %s: peněženka vyžaduje novější verzi %s</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>Chyba při načítání %s: nemůžeš vypnout HD u existující HD peněženky</translation>
+        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
+        <translation type="obsolete">Chyba při načítání %s: nemůžeš vypnout HD u existující HD peněženky</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -3302,16 +3691,16 @@
         <translation>Selhala úvodní zevrubná prověrka. %s se ukončuje.</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>Neplatná -onion adresa: '%s'</translation>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="obsolete">Neplatná -onion adresa: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná částka pro -%s=&lt;částka&gt;: '%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Neplatná částka pro -%s=&lt;částka&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná částka pro -fallbackfee=&lt;částka&gt;: '%s'</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Neplatná částka pro -fallbackfee=&lt;částka&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
@@ -3411,7 +3800,7 @@
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Kontroluji peněženku…</translation>
+        <translation type="obsolete">Kontroluji peněženku…</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -3439,7 +3828,7 @@
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Čekat na zadané adrese na JSON-RPC spojení. Pro zápis IPv6 adresy použij notaci [adresa]:port. Tuto volbu lze použít i vícekrát (výchozí: poslouchat na všech rozhraních)</translation>
+        <translation type="obsolete">Čekat na zadané adrese na JSON-RPC spojení. Pro zápis IPv6 adresy použij notaci [adresa]:port. Tuto volbu lze použít i vícekrát (výchozí: poslouchat na všech rozhraních)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3466,8 +3855,8 @@
         <translation>Pokud paytxfee není nastaveno, platit dostatečný poplatek na to, aby začaly být transakce potvrzovány v průměru během n bloků (výchozí: %u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s' (musí být alespoň jako poplatek minrelay %s, aby transakce nezůstávaly trčet)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (musí být alespoň jako poplatek minrelay %s, aby transakce nezůstávaly trčet)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3479,7 +3868,7 @@
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Nastavit maximální velikost prioritních/nízkopoplatkových transakcí v bajtech (výchozí: %d)</translation>
+        <translation type="obsolete">Nastavit maximální velikost prioritních/nízkopoplatkových transakcí v bajtech (výchozí: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3526,20 +3915,20 @@
         <translation>Informace</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Neplatná částka pro -paytxfee=&lt;částka&gt;: '%s' (musí být alespoň %s)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>Neplatná částka pro -paytxfee=&lt;částka&gt;: &apos;%s&apos; (musí být alespoň %s)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ve -whitelist byla zadána neplatná podsíť: '%s'</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>Ve -whitelist byla zadána neplatná podsíť: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Držet v paměti nejvýše &lt;n&gt; nespojitelných transakcí (výchozí: %u)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>V rámci -whitebind je třeba specifikovat i port: '%s'</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>V rámci -whitebind je třeba specifikovat i port: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3563,7 +3952,7 @@
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Posílat transakce pokud možno bez poplatků (výchozí: %u)</translation>
+        <translation type="obsolete">Posílat transakce pokud možno bez poplatků (výchozí: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3651,7 +4040,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Načítám adresy...</translation>
+        <translation type="obsolete">Načítám adresy...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3695,7 +4084,7 @@
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Při nedostatku adres získat další protějšky z DNS (výchozí: 1, pokud není použito -connect/-noconnect)</translation>
+        <translation type="obsolete">Při nedostatku adres získat další protějšky z DNS (výchozí: 1, pokud není použito -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
@@ -3722,7 +4111,7 @@
         <translation>Pokusit se udržet odchozí provoz pod stanovenou hodnotou (v MiB za 24 hodin), 0 = bez omezení (výchozí: %d)</translation>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Byl použit nepodporovaný argument -socks. Nastavení verze SOCKS už není možné, podporovány jsou pouze SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -3734,7 +4123,7 @@
         <translation>Použít samostatnou SOCKS5 proxy ke spojení s protějšky přes skryté služby v Toru (výchozí: %s)</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>Upozornění: Síť těží neznámé verze bloků! Je možné, že jsou v platnosti neznámá pravidla</translation>
     </message>
     <message>
@@ -3766,8 +4155,8 @@
         <translation>Zaznamenávat do ladicích výstupů i IP adresy (výchozí: %u)</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Neplatná -proxy adresa: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="obsolete">Neplatná -proxy adresa: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
@@ -3870,8 +4259,8 @@
         <translation>Transakce musí mít alespoň jednoho příjemce</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>V -onlynet byla uvedena neznámá síť: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>V -onlynet byla uvedena neznámá síť: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3908,6 +4297,122 @@
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -connect=0 disables automatic connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t enable HD on an already existing non-HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d of last 100 blocks have unexpected version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(press q to shutdown and continue later)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading P2P addresses...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replaying blocks...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
