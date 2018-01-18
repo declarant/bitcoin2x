@@ -2052,7 +2052,7 @@ We recommend waiting for 3 transaction confirmations.</source>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Исходящие</translation>
+        <translation>Исходящая</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -3071,7 +3071,7 @@ We recommend waiting for 3 transaction confirmations.</source>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Получено на</translation>
+        <translation>Входящая</translation>
     </message>
     <message>
         <source>Received from</source>
@@ -3079,7 +3079,7 @@ We recommend waiting for 3 transaction confirmations.</source>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Отправлено на</translation>
+        <translation>Исходящие</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
@@ -3158,11 +3158,11 @@ We recommend waiting for 3 transaction confirmations.</source>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Получено на</translation>
+        <translation>Входящие</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Отправлено на</translation>
+        <translation>Исходящие</translation>
     </message>
     <message>
         <source>To yourself</source>
