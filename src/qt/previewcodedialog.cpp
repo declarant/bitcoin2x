@@ -7,7 +7,8 @@ PreviewCodeDialog::PreviewCodeDialog(const QAbstractItemModel *idx, int row, QWi
     QDialog(parent),
     ui(new Ui::PreviewCodeDialog)
 {
-    ui->setupUi(this);    this->setWindowFlags(this->windowFlags()& ~Qt::WindowContextHelpButtonHint);
+    ui->setupUi(this);  this->setWindowFlags(this->windowFlags() &
+~Qt::WindowContextHelpButtonHint);
     ui->AmountFirst->setText(idx->headerData(1,Qt::Horizontal).toString()+":");
     ui->CodeFirst->setText(idx->headerData(3,Qt::Horizontal).toString()+":");
     ui->HashFirst->setText(idx->headerData(2,Qt::Horizontal).toString()+":");

@@ -59,7 +59,8 @@ SendCoinsDialog::SendCoinsDialog(const PlatformStyle *_platformStyle, QWidget *p
     fFeeMinimized(true),
     platformStyle(_platformStyle)
 {
-    ui->setupUi(this);
+    ui->setupUi(this);  this->setWindowFlags(this->windowFlags() &
+~Qt::WindowContextHelpButtonHint);
 
     if (!_platformStyle->getImagesOnButtons()) {
         ui->addButton->setIcon(QIcon());

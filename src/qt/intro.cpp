@@ -119,7 +119,8 @@ Intro::Intro(QWidget *parent) :
     thread(0),
     signalled(false)
 {
-    ui->setupUi(this);
+    ui->setupUi(this);  this->setWindowFlags(this->windowFlags() &
+~Qt::WindowContextHelpButtonHint);
     ui->welcomeLabel->setText(ui->welcomeLabel->text().arg(tr(PACKAGE_NAME)));
     ui->storageLabel->setText(ui->storageLabel->text().arg(tr(PACKAGE_NAME)));
 

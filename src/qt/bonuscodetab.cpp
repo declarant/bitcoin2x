@@ -21,12 +21,11 @@ BonusCodeTab::BonusCodeTab(WalletModel *wmodel_,
                            const PlatformStyle *platformStyle, QWidget *parent)
     : QWidget(parent), ui(new Ui::BonusCodeTab) {
 
-    ui->setupUi(this);
+    ui->setupUi(this);  this->setWindowFlags(this->windowFlags() &
+~Qt::WindowContextHelpButtonHint);
 
     wmodel = wmodel_;
     this->platformStyle = platformStyle;
-    this->setWindowFlags(this->windowFlags() &
-                         ~Qt::WindowContextHelpButtonHint);
 
     tableInit(ui->CouponList);
     tableInit(ui->usedCouponList);

@@ -94,7 +94,8 @@ ReceiveRequestDialog::ReceiveRequestDialog(QWidget *parent) :
     ui(new Ui::ReceiveRequestDialog),
     model(0)
 {
-    ui->setupUi(this);
+    ui->setupUi(this);  this->setWindowFlags(this->windowFlags() &
+~Qt::WindowContextHelpButtonHint);
 
 #ifndef USE_QRCODE
     ui->btnSaveAs->setVisible(false);
