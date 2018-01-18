@@ -98,7 +98,7 @@ void BonusCodeTab::tableInit(QTableView *sourceTable) {
     sourceTable->setShowGrid(false);
 
     connect(sourceTable, SIGNAL(doubleClicked(QModelIndex)), this,
-            SLOT(Clicked(QModelIndex)));
+            SLOT(clicked(QModelIndex)));
 }
 
 void BonusCodeTab::updateBonusList() {
