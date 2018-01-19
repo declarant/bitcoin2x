@@ -3079,7 +3079,7 @@ We recommend waiting for 3 transaction confirmations.</source>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Исходящие</translation>
+        <translation>Исходящая</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
